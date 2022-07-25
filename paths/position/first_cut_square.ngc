@@ -1,0 +1,76 @@
+;PYCAM-META-DATA: Filename: /home/user/VBox Share/square.STL
+;PYCAM-META-DATA: Timestamp: 2015-07-22 12:07:20.054812
+;PYCAM-META-DATA: Version: 0.5.1
+;Estimated machine time: 0 minutes
+G40 (disable tool radius compensation)
+G49 (disable tool length compensation)
+G80 (cancel modal motion)
+G54 (select coordinate system 1)
+G90 (disable incremental moves)
+G21 (metric)
+G61 (exact path mode)
+F200.00000
+S1000.00000
+;PYCAM_TOOLPATH_SETTINGS: START
+;[Bounds]
+;maxz = 2.0
+;maxx = 13.0
+;maxy = 13.0
+;minx = 2.0
+;miny = 2.0
+;minz = 0.0
+;
+;[Tool]
+;torus_radius = 0.25
+;speed = 1000.0
+;shape = SphericalCutter
+;tool_radius = 2.0
+;feedrate = 200.0
+;
+;[Process]
+;engrave_offset = 0.0
+;step_down = 1.5
+;generator = ContourFollow
+;postprocessor = SimpleCutter
+;overlap_percent = 0
+;milling_style = conventional
+;material_allowance = 0.0
+;pocketing_type = none
+;path_direction = x
+;
+;PYCAM_TOOLPATH_SETTINGS: END
+T3 M6
+G0 Z2.0000
+M3 (start spindle)
+G04 P3 (wait for 3 seconds)
+ X9.6771 Y9.6771
+G1 Z1.0000
+ Y8.6667
+G0 Z2.0000
+ X5.3229 Y9.6771
+G1 Z1.0000
+ X6.3333
+G0 Z2.0000
+ X5.3229 Y5.3229
+G1 Z1.0000
+ Y6.3333
+G0 Z2.0000
+ X9.6771 Y5.3229
+G1 Z1.0000
+ X5.3229
+ Y9.6771
+ X9.6771
+ Y5.3229
+ X8.6667
+G0 Z2.0000
+ X9.0635 Y5.9365
+G1 Z0.0000
+ X5.9365
+ Y9.0635
+ X9.0635
+ Y5.9365
+G0 Z2.0000
+M5 (stop spindle)
+G04 P3 (wait for 3 seconds)
+G0 Z2.0000
+M2 (end program)

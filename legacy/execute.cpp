@@ -1,0 +1,70 @@
+  { "flipped",
+  make_pair(FLIPPED_CARTESIAN, FLIPPED_JOINT) }, 
+  { "navbywire_twisted",
+  make_pair(NAVBYWIRESTART_TWISTED_CARTESIAN, NAVBYWIRESTART_TWISTED_JOINT) },
+  { "pid1",
+  make_pair(PID_POSITION_CARTESIAN, PID_POSITION_JOINT) },
+  { "navbywire",
+  make_pair(NAVBYWIRESTART_CARTESIAN, NAVBYWIRESTART_JOINT) },
+
+static float WEDGE_CLOSE_Y_CARTESIAN[NUMBER_OF_FRAME_ELEMENTS] = {
+  0.0f, 0.0f, -1.0f, -0.74287f,
+  0.0f, 1.0f, 0.0f, -0.010f,
+  1.0f, 0.0f, 0.0f, 0.20068f
+};
+
+static float FLIPPED_CARTESIAN[NUMBER_OF_FRAME_ELEMENTS] = {
+  -0.342876f, 0.002907f, -0.939376f, -0.695549f,
+  0.022679f, 0.999729f, -0.005184f, -0.000285f,
+  0.939107f, -0.023082f, -0.342850f, 0.195398f
+};
+
+static float FLIPPED_JOINT[NUMBER_OF_JOINTS] = {
+  -0.016625f, 0.681751f, 0.012717f, -1.685914f,
+  -0.020003f, -0.444803f, 0.030831f
+};
+
+static float NAVBYWIRESTART_TWISTED_CARTESIAN[NUMBER_OF_FRAME_ELEMENTS] = {
+  -0.171738f, 0.002151f, -0.985140f, -0.700f,
+  0.028887f, 0.999579f, -0.002853f, 0.0f,
+  0.984719f, -0.028948f, -0.171728f, 0.180f
+};
+
+static float NAVBYWIRESTART_TWISTED_JOINT[NUMBER_OF_JOINTS] = {
+  -0.017188f, 0.744389f, 0.012052f, -1.750932f,
+  -0.013775f, -0.752523f, 0.030765f
+};
+
+static float NAVBYWIRESTART_CARTESIAN[NUMBER_OF_FRAME_ELEMENTS] = {
+  0.0f, 0.0f, -1.000000f, -0.7f,
+  0.0f, 1.000000f, 0.0f, 0.0f,
+  1.000000f, 0.0f, 0.0f, 0.2f
+};
+
+static float NAVBYWIRESTART_JOINT[NUMBER_OF_JOINTS] = {
+  -0.012042f, 0.751287f, 0.011815f, -1.802032f,
+  -0.003843f, -0.982261f, -0.006153f
+};
+
+static float PID_POSITION_CARTESIAN[NUMBER_OF_FRAME_ELEMENTS] = {
+  1.0f, 0.0f, 0.0f, -0.75f,
+  0.0f, 1.0f, -0.0f, -0.20f,
+  0.0f, -0.0f, 1.0f, 0.25f
+};
+
+// #TODO need to set values not currently set
+static float PID_POSITION_JOINT[NUMBER_OF_JOINTS] = {
+  0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f
+};
+
+static float NAVFAR_CARTESIAN[NUMBER_OF_FRAME_ELEMENTS] = {
+  0.0f, 0.0f, -1.0f, -0.740f,
+  0.0f, 1.0f, 0.0f, 0.0f,
+  1.0f, 0.0f, 0.0f, 0.200f
+};
+
+static float NO_WEDGE_CARTESIAN[NUMBER_OF_FRAME_ELEMENTS] = {
+  -0.17365f, 0.0f, -0.98481f, -0.73118f,
+  0.0f, 1.000000f, 0.0000f, 0.0f,
+  0.98481f, 0.0f, -0.17365f, 0.18670f
+};

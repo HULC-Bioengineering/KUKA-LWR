@@ -1,0 +1,3038 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GCSCMDirState xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <UpdateTime>2015-09-10T07:12:50.8215839+00:00</UpdateTime>
+  <Standins>
+    <GCSCMStandin>
+      <FileName>KUKA_LWR_4+\Base.SLDPRT</FileName>
+      <SHA1>45AF7D01736CD360738B817739EEF302D26502DA</SHA1>
+      <FileSize>224256</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>KUKA_LWR_4+\LBR4-Neukpl.sldasm-Part-42.sldprt</FileName>
+      <SHA1>68E0A111C30541CDD33F782D1E9828729F9A3B1B</SHA1>
+      <FileSize>121856</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>KUKA_LWR_4+\LBR4-Neukpl.sldasm-Part-43.sldprt</FileName>
+      <SHA1>AA5B57CB6741006BF3E93BFD3A1F72EAF1AD5476</SHA1>
+      <FileSize>123904</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>KUKA_LWR_4+\LBR4-Neukpl.sldasm-Part-44.sldprt</FileName>
+      <SHA1>F5D7AFA11A79F022F96B855B12245EA39FFAA649</SHA1>
+      <FileSize>128512</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>KUKA_LWR_4+\LBR4-Neukpl.sldasm-Part-46.sldprt</FileName>
+      <SHA1>A2533BBAD8D9507BF083E3D2C65DCC550B694619</SHA1>
+      <FileSize>124928</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>KUKA_LWR_4+\Link1.SLDPRT</FileName>
+      <SHA1>23DBF79E3F9EA0F478AE90BBD01D375FB94FF78E</SHA1>
+      <FileSize>343040</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>KUKA_LWR_4+\Link2.SLDPRT</FileName>
+      <SHA1>27E216371ADD674308A1999DA114E32939A15996</SHA1>
+      <FileSize>483840</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>KUKA_LWR_4+\Link3.SLDPRT</FileName>
+      <SHA1>2E51D9298ED14242628F0474CF7064ED697B12A1</SHA1>
+      <FileSize>482816</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>KUKA_LWR_4+\Link4.SLDPRT</FileName>
+      <SHA1>2552EBB29139B8B66D32D16D4C062280B40FE4E2</SHA1>
+      <FileSize>484864</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>KUKA_LWR_4+\Link5.SLDPRT</FileName>
+      <SHA1>482D0B5B9D030F0479EF4B30F23FFAF94F17D05F</SHA1>
+      <FileSize>460288</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>KUKA_LWR_4+\Link6.SLDPRT</FileName>
+      <SHA1>C8D36FB33EEEC7A3DD5F0696132C9262E2E7F35F</SHA1>
+      <FileSize>708608</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>KUKA_LWR_4+\Link7.SLDPRT</FileName>
+      <SHA1>97D5FA09E69D4A03C9FAD634709C5422C4D23BCA</SHA1>
+      <FileSize>276992</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>KUKA_LWR_4+\lwr.SLDASM</FileName>
+      <SHA1>B0798378F776BEA4857E0A02FC72C3A0478799C7</SHA1>
+      <FileSize>1872896</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>ATI\ATINano25E.SLDPRT</FileName>
+      <SHA1>FBC727BF9CAF8376A31B87123C83D56FD453E3BB</SHA1>
+      <FileSize>455168</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>ATI\ATINanoSignalConditioning.SLDPRT</FileName>
+      <SHA1>BA3277F051F9C6B30445A642FE746B0A82A1E91E</SHA1>
+      <FileSize>2392576</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>KUKA_LWR_4+\LBR4-Neukpl.x_t</FileName>
+      <SHA1>6960DFC2BECF994D1B00FFA0D1B078B60AA8F839</SHA1>
+      <FileSize>1790282</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev10\91290A115.SLDPRT</FileName>
+      <SHA1>119E83397B182D0C080C9EEB6C2C607E0CE7D208</SHA1>
+      <FileSize>1345536</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev10\91290A117.SLDPRT</FileName>
+      <SHA1>886BDE1D0FF43E894C7618FCA7D54096BF9EC67A</SHA1>
+      <FileSize>1422848</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev10\91290A123.SLDPRT</FileName>
+      <SHA1>22E20FFFF4ADA7200EB30FFDD158C8452BA08C07</SHA1>
+      <FileSize>1998336</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev10\91290A418.SLDPRT</FileName>
+      <SHA1>715E437E5A66F063C16BFFB7E45360A47F2B0D71</SHA1>
+      <FileSize>1222656</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev10\91801A154.SLDPRT</FileName>
+      <SHA1>3364D5D615D71B4366347884A77251BEA9B08F79</SHA1>
+      <FileSize>989696</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev10\91801A164.SLDPRT</FileName>
+      <SHA1>F9F195609C960C107FFD7BC02784679E5E4F5B64</SHA1>
+      <FileSize>1573376</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev10\92290A330.SLDPRT</FileName>
+      <SHA1>C7EA39A5ECC2BC301413A69981D56C111139A5C1</SHA1>
+      <FileSize>1849344</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev10\93070A061.SLDPRT</FileName>
+      <SHA1>5E7166DFA127FF3CED7413E51D257657F19EF9E8</SHA1>
+      <FileSize>719360</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev10\Assem1.SLDASM</FileName>
+      <SHA1>ACB0E8694D60E17B97046505855EB0CE843E9CD3</SHA1>
+      <FileSize>7107072</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev10\b.SLDASM</FileName>
+      <SHA1>F21054F39617B64A7ACE2FD2E70B87ECC73202C9</SHA1>
+      <FileSize>370688</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev10\joint_4.SLDPRT</FileName>
+      <SHA1>20D60DD5EA4E5AAE2D08130ACF180924FE1D4263</SHA1>
+      <FileSize>3018752</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev10\joint_5.SLDPRT</FileName>
+      <SHA1>EE641E4CCF0A84055776B84F08E1163AB469913A</SHA1>
+      <FileSize>1679360</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev10\joint_6.SLDPRT</FileName>
+      <SHA1>F8A5E2923C9C38BC33DCA421F8DEBDEE170691FA</SHA1>
+      <FileSize>1032192</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev10\joint_7.SLDPRT</FileName>
+      <SHA1>33EA3D9FEB92834817CFC375A71A85854E03DA10</SHA1>
+      <FileSize>595968</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev10\mount_plate.SLDPRT</FileName>
+      <SHA1>348DB4766B219F5162CC62EE00885E4A91B18642</SHA1>
+      <FileSize>150016</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev10\Nane25E.SLDPRT</FileName>
+      <SHA1>90C67C3E674EE3AA580A83C3DEAFFC84E06D9FCF</SHA1>
+      <FileSize>822784</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev10\nav_by_wire_rev9.SLDASM</FileName>
+      <SHA1>8C558A5E3E6E84969519FD0E7A147B6317703B63</SHA1>
+      <FileSize>9884672</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev10\PerformanceLog.txt</FileName>
+      <SHA1>3EE044B892A9F6979D962CCB967C10256DA86514</SHA1>
+      <FileSize>61</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev10\reference60.SLDPRT</FileName>
+      <SHA1>CD6A8ECD9E9DBC1F8C970E34603575CCC9977BED</SHA1>
+      <FileSize>312832</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev10\robo_end_effector_mock.SLDPRT</FileName>
+      <SHA1>1DEB26514139A21ED255E3D35305B6965A0FB45A</SHA1>
+      <FileSize>142336</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev10\scap2.SLDPRT</FileName>
+      <SHA1>2B662E21A9B941860BFDC0294BE2CCAE880E9499</SHA1>
+      <FileSize>6811136</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev10\stand_mount.SLDPRT</FileName>
+      <SHA1>8216A16D57FEFD835D98EF6932B460BC8CD31940</SHA1>
+      <FileSize>249344</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev10\Stand_Pic_Position.SLDASM</FileName>
+      <SHA1>D7C4A821338C9E4D73D1F6C430507B4FA039BCD4</SHA1>
+      <FileSize>8462848</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev10\straight_wire-Nonlinear 5.CWR</FileName>
+      <SHA1>B23E4FEBC0262BF963458F101547B193D2005EAF</SHA1>
+      <FileSize>10772480</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev10\straight_wire-Nonlinear 5.LOG</FileName>
+      <SHA1>E99E90F2B613A89F4877AC4F2574F78691656532</SHA1>
+      <FileSize>232</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev10\straight_wire-Nonlinear 5.NP3</FileName>
+      <SHA1>684B7817D02A42DB6AF58ECA713869CD13ABFA74</SHA1>
+      <FileSize>1261568</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev10\straight_wire-Nonlinear 5.PDP</FileName>
+      <SHA1>354FC6C163237531A6983CAB8A98DB3D806377AF</SHA1>
+      <FileSize>960</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev10\straight_wire.SLDPRT</FileName>
+      <SHA1>58A955FF94EF96CE6A4684C8B13CC6E04A49FE15</SHA1>
+      <FileSize>900096</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev10\tool_mock.SLDPRT</FileName>
+      <SHA1>A346CAF9DFFAC46D86AF76B2CDD2550E2AF3B7CA</SHA1>
+      <FileSize>633856</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev10\tool_mount_v7.SLDPRT</FileName>
+      <SHA1>6510407168EA63C883FD5CA5495A0064FE78A671</SHA1>
+      <FileSize>943616</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev10\tool_rubber_stopper.SLDPRT</FileName>
+      <SHA1>5B96D0336D70D00DF0DFF81B4C9031D61EC86D98</SHA1>
+      <FileSize>202752</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev10\Wedge.SLDPRT</FileName>
+      <SHA1>A3FA5CC85D5524A1736BC504F627C8C939DD02B5</SHA1>
+      <FileSize>1385472</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev10\wedge2.SLDPRT</FileName>
+      <SHA1>6DD6C12B38DDD8A9BEECE187AB8433995F50B581</SHA1>
+      <FileSize>512512</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev10\wedge2_10.STL</FileName>
+      <SHA1>B60FE4EA262AA4B8A509C06F52CD1AD0575B8B7F</SHA1>
+      <FileSize>131084</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev10\wedge2_15.STL</FileName>
+      <SHA1>DE8F09C28ECFA5FD103FDD58E0E06774FCC939A6</SHA1>
+      <FileSize>132384</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev10\wedge2_30.STL</FileName>
+      <SHA1>A883E1A5E02F0B1D4388B6DAF591724E2A93228C</SHA1>
+      <FileSize>130884</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev10\wedge2_45.STL</FileName>
+      <SHA1>392446402C16EA2396E4B8082A74FCCE15B40767</SHA1>
+      <FileSize>126684</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev10\wedge3.SLDPRT</FileName>
+      <SHA1>C186E4DDA081268B1B7C5DB420747AFD9D9F156B</SHA1>
+      <FileSize>313856</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev10\Wedge45.STL</FileName>
+      <SHA1>C2BE5FB7D0AA78AF497D7B637A1011C5D008360E</SHA1>
+      <FileSize>55884</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev10\wire_mount.SLDPRT</FileName>
+      <SHA1>CCB3176E94DA7ADD9EDA82A72E5F203A9F00C3AD</SHA1>
+      <FileSize>813568</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev10\X.BAT</FileName>
+      <SHA1>68EBBD044F133980FD790E8F3336462A48A39E62</SHA1>
+      <FileSize>84</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev11\wedge\wedge2_10.x3g</FileName>
+      <SHA1>23E2B2448EF8FF68413FD7E02B1E2926032156E9</SHA1>
+      <FileSize>2763449</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev11\wedge\wedge2_15.x3g</FileName>
+      <SHA1>E50288EEE0050EC6B33D5879D4730240EF25F770</SHA1>
+      <FileSize>1396985</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev11\wedge\wedge2_30.x3g</FileName>
+      <SHA1>6608D8BE15D1A9763843F508E5C65F5D7645662A</SHA1>
+      <FileSize>3494233</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev11\wedge\wedge2_45.x3g</FileName>
+      <SHA1>51F860F90A966B50C6CFE14F0F64A80CF397B2D8</SHA1>
+      <FileSize>3575673</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev11\wedge\wedge3.STL</FileName>
+      <SHA1>4EFBE513030D991BA26B403E355FA02769F91E69</SHA1>
+      <FileSize>132784</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev11\wedge\wedge3.x3g</FileName>
+      <SHA1>EE253BEE5401FFA54F62322556159427C4CC5B6B</SHA1>
+      <FileSize>2037974</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev11\wedge\Wedge45.x3g</FileName>
+      <SHA1>E353B53902534AFFC9B1437708AFD79D8E949106</SHA1>
+      <FileSize>1368055</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev11\91290A099.SLDPRT</FileName>
+      <SHA1>CB382F7A2BB517F0DB8D1BF67CD86348410BB75E</SHA1>
+      <FileSize>973824</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev11\91290A115.SLDPRT</FileName>
+      <SHA1>119E83397B182D0C080C9EEB6C2C607E0CE7D208</SHA1>
+      <FileSize>1345536</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev11\91290A117.SLDPRT</FileName>
+      <SHA1>886BDE1D0FF43E894C7618FCA7D54096BF9EC67A</SHA1>
+      <FileSize>1422848</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev11\91290A123.SLDPRT</FileName>
+      <SHA1>22E20FFFF4ADA7200EB30FFDD158C8452BA08C07</SHA1>
+      <FileSize>1998336</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev11\91290A144.SLDPRT</FileName>
+      <SHA1>AA12DF6EFAA37A256319386F6C86EF523471ED71</SHA1>
+      <FileSize>1202688</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev11\91290A418.SLDPRT</FileName>
+      <SHA1>715E437E5A66F063C16BFFB7E45360A47F2B0D71</SHA1>
+      <FileSize>1222656</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev11\91801A154.SLDPRT</FileName>
+      <SHA1>3364D5D615D71B4366347884A77251BEA9B08F79</SHA1>
+      <FileSize>989696</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev11\91801A164.SLDPRT</FileName>
+      <SHA1>F9F195609C960C107FFD7BC02784679E5E4F5B64</SHA1>
+      <FileSize>1573376</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev11\92290A330.SLDPRT</FileName>
+      <SHA1>C7EA39A5ECC2BC301413A69981D56C111139A5C1</SHA1>
+      <FileSize>1849344</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev11\93070A061.SLDPRT</FileName>
+      <SHA1>5E7166DFA127FF3CED7413E51D257657F19EF9E8</SHA1>
+      <FileSize>719360</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev11\arm.SLDASM</FileName>
+      <SHA1>0479200044EBF5D4FCFA8E81A7169695748FDB95</SHA1>
+      <FileSize>1150976</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev11\fixation.SLDASM</FileName>
+      <SHA1>7236A84140C2DA1E7530B5B329B55861E0D8DD5C</SHA1>
+      <FileSize>1052160</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev11\joint_4.SLDPRT</FileName>
+      <SHA1>DE679BFE9C432E4853D153D46935352C639F5230</SHA1>
+      <FileSize>3032576</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev11\joint_5.SLDPRT</FileName>
+      <SHA1>98772BEBAADFF033CE242EB1AC3E36C3773AAEC7</SHA1>
+      <FileSize>1729024</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev11\joint_6.SLDPRT</FileName>
+      <SHA1>958AF3E709BA8F190CA251776D1EC0F770192389</SHA1>
+      <FileSize>1059840</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev11\joint_7.SLDPRT</FileName>
+      <SHA1>70D8317C2176B225B7EC5EABD6CF188DC3BCB1B8</SHA1>
+      <FileSize>1012224</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev11\lc.SLDASM</FileName>
+      <SHA1>0358CA36B4123D552D76F32AFC64803FEEDD7ECC</SHA1>
+      <FileSize>2293760</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev11\mount_plate.SLDPRT</FileName>
+      <SHA1>AF060F01ECDC05D7FBCECD18A5100CBAF5F84241</SHA1>
+      <FileSize>154624</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev11\Nane25E.SLDPRT</FileName>
+      <SHA1>90C67C3E674EE3AA580A83C3DEAFFC84E06D9FCF</SHA1>
+      <FileSize>822784</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev11\NavByWireRev11.SLDASM</FileName>
+      <SHA1>5FBFF28E197563FE62BF67537BDA151BB4156872</SHA1>
+      <FileSize>5691904</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev11\nav_by_wire_rev11.SLDASM</FileName>
+      <SHA1>7B5C1681712087E7C1B0B60AD27CC6DD844305FA</SHA1>
+      <FileSize>7904768</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev11\prop.SLDPRT</FileName>
+      <SHA1>530249E4C482E5F72DE063144407B59C77F612F8</SHA1>
+      <FileSize>145408</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev11\robo_end_effector_mock.SLDPRT</FileName>
+      <SHA1>1DEB26514139A21ED255E3D35305B6965A0FB45A</SHA1>
+      <FileSize>142336</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev11\scap2.SLDPRT</FileName>
+      <SHA1>2B662E21A9B941860BFDC0294BE2CCAE880E9499</SHA1>
+      <FileSize>6811136</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev11\smart_marker-scaled.SLDPRT</FileName>
+      <SHA1>99E3B2C5A9E8A5DED8307769F9D09547EAF581F0</SHA1>
+      <FileSize>620544</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev11\spring_steel_cuts.SLDPRT</FileName>
+      <SHA1>B68CD28908C16D99828F46DADB5D057A167F2885</SHA1>
+      <FileSize>164864</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev11\stand_mount.SLDPRT</FileName>
+      <SHA1>42BBDC065122D1E64FB8381A7F04F8B9B2ED41B8</SHA1>
+      <FileSize>249344</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev11\straight_wire.SLDPRT</FileName>
+      <SHA1>58A955FF94EF96CE6A4684C8B13CC6E04A49FE15</SHA1>
+      <FileSize>900096</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev11\tool.SLDASM</FileName>
+      <SHA1>376655E9EDC1F5DC93FE7B837DF48DE1CC0695E9</SHA1>
+      <FileSize>2550272</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev11\tool_mock.SLDPRT</FileName>
+      <SHA1>44E22EC43FA0CEAA0CEB94A1EAC328BEDCE1E16E</SHA1>
+      <FileSize>633344</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev11\tool_mount_v7.SLDPRT</FileName>
+      <SHA1>208DF1A2DC995F08A455029462EAB164C253B904</SHA1>
+      <FileSize>1487872</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev11\tool_rubber_stopper.SLDPRT</FileName>
+      <SHA1>5B96D0336D70D00DF0DFF81B4C9031D61EC86D98</SHA1>
+      <FileSize>202752</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev11\Wedge.SLDPRT</FileName>
+      <SHA1>A3FA5CC85D5524A1736BC504F627C8C939DD02B5</SHA1>
+      <FileSize>1385472</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev11\wedge3.SLDPRT</FileName>
+      <SHA1>6AE3D29233744BF030C9EB0DED8C54A6E5551B91</SHA1>
+      <FileSize>321024</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev11\wire.SLDPRT</FileName>
+      <SHA1>F0C3824A786F3D92983D8214F526B640E4386444</SHA1>
+      <FileSize>339968</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev11\wire_mount.SLDPRT</FileName>
+      <SHA1>3CECDA401424174191B246CADE8E4CCAA179498E</SHA1>
+      <FileSize>762880</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev12\EndEffector\end_effector.SLDASM</FileName>
+      <SHA1>E5728E5C2BCAE00D79254403C0E867396CC99048</SHA1>
+      <FileSize>4414464</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev12\EndEffector\mount_plate.SLDPRT</FileName>
+      <SHA1>0E9FA45EEC8F5301308849FCD46CAF67FFC4366D</SHA1>
+      <FileSize>162304</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev12\Fixation\91290A115.SLDPRT</FileName>
+      <SHA1>119E83397B182D0C080C9EEB6C2C607E0CE7D208</SHA1>
+      <FileSize>1345536</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev12\Fixation\91290A418.SLDPRT</FileName>
+      <SHA1>8EE8CBFAA38E1BA53141CFB1AA7F3F1A23D16595</SHA1>
+      <FileSize>1224704</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev12\Fixation\fixation.SLDASM</FileName>
+      <SHA1>33E8EEF8D33B19028A8036D3EAC297587D75EFA8</SHA1>
+      <FileSize>1053184</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev12\Fixation\stand_mount.SLDPRT</FileName>
+      <SHA1>42BBDC065122D1E64FB8381A7F04F8B9B2ED41B8</SHA1>
+      <FileSize>249344</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev12\Fixation\wire_mount.SLDPRT</FileName>
+      <SHA1>3CECDA401424174191B246CADE8E4CCAA179498E</SHA1>
+      <FileSize>762880</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev12\LoadCell\91290A115.SLDPRT</FileName>
+      <SHA1>50BADE8BF1A2E39C362682113DBF4AD3DF26BDF6</SHA1>
+      <FileSize>1374208</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev12\LoadCell\91290A123.SLDPRT</FileName>
+      <SHA1>894A4BED6C1B8EB815091772ED59C60C357EE5ED</SHA1>
+      <FileSize>1660416</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev12\LoadCell\91801A154.SLDPRT</FileName>
+      <SHA1>08BECEE2D1DF5D97AA60A498E1E0A40DD58C5FE2</SHA1>
+      <FileSize>1045504</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev12\LoadCell\lc.SLDASM</FileName>
+      <SHA1>482C1CC0199A0FAB4E1183C9DAF6DEFDA49C43D3</SHA1>
+      <FileSize>2386432</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev12\LoadCell\Nane25E.SLDPRT</FileName>
+      <SHA1>8B2940B4F0A829F2133FA45204A4CE7C89A3D468</SHA1>
+      <FileSize>2368512</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev12\LoadCell\wedge3.SLDPRT</FileName>
+      <SHA1>6AE3D29233744BF030C9EB0DED8C54A6E5551B91</SHA1>
+      <FileSize>321024</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev12\LoadCell\wire_mount.SLDPRT</FileName>
+      <SHA1>42379CFBF292C80349669E7201B97808350344EB</SHA1>
+      <FileSize>752640</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev12\LWR\Base.SLDPRT</FileName>
+      <SHA1>45AF7D01736CD360738B817739EEF302D26502DA</SHA1>
+      <FileSize>224256</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev12\LWR\LBR4-Neukpl.sldasm-Part-42.sldprt</FileName>
+      <SHA1>5002794147C93161E6B699806CDFC91DAA4B4BEB</SHA1>
+      <FileSize>120832</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev12\LWR\LBR4-Neukpl.sldasm-Part-43.sldprt</FileName>
+      <SHA1>B2AFA341637CA9F86FA175BCDF0288CFCBAA26CE</SHA1>
+      <FileSize>122880</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev12\LWR\LBR4-Neukpl.sldasm-Part-44.sldprt</FileName>
+      <SHA1>BB36562E6F6F560D7B7E89CE6DBA3AB54FFA6C9D</SHA1>
+      <FileSize>126976</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev12\LWR\LBR4-Neukpl.sldasm-Part-46.sldprt</FileName>
+      <SHA1>F190D15A704F3233497F85FBADD162523E73F9B1</SHA1>
+      <FileSize>123904</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev12\LWR\Link1.SLDPRT</FileName>
+      <SHA1>C5E15764B29322719C4B613D34A06175749066C2</SHA1>
+      <FileSize>343552</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev12\LWR\Link2.SLDPRT</FileName>
+      <SHA1>783C3192409D9E35D23BF47B08F5E502224C054D</SHA1>
+      <FileSize>482304</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev12\LWR\Link3.SLDPRT</FileName>
+      <SHA1>2000C200502D97A83A6886B97075BCBDCD77F321</SHA1>
+      <FileSize>480768</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev12\LWR\Link4.SLDPRT</FileName>
+      <SHA1>FFD80F9CEACC899165D8A5A120C4E40A9917D573</SHA1>
+      <FileSize>482304</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev12\LWR\Link5.SLDPRT</FileName>
+      <SHA1>482D0B5B9D030F0479EF4B30F23FFAF94F17D05F</SHA1>
+      <FileSize>460288</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev12\LWR\Link6.SLDPRT</FileName>
+      <SHA1>9DA118697851804765360D3D6E50BB6F6EDEAC12</SHA1>
+      <FileSize>457728</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev12\LWR\Link7.SLDPRT</FileName>
+      <SHA1>EE30C65109DCC4BDD0BE4FE7E84BDE0C359C6F8A</SHA1>
+      <FileSize>261632</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev12\Tool\91290A099.SLDPRT</FileName>
+      <SHA1>D68F094B8EE6BBE2DBB44E83E04CE55089C891E5</SHA1>
+      <FileSize>970752</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev12\Tool\91290A144.SLDPRT</FileName>
+      <SHA1>74928D537954B878F858563B652EEC15200EC599</SHA1>
+      <FileSize>1200128</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev12\Tool\92290A330.SLDPRT</FileName>
+      <SHA1>C7EA39A5ECC2BC301413A69981D56C111139A5C1</SHA1>
+      <FileSize>1849344</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev12\Tool\smart_marker-scaled.SLDPRT</FileName>
+      <SHA1>99E3B2C5A9E8A5DED8307769F9D09547EAF581F0</SHA1>
+      <FileSize>620544</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev12\Tool\tool.SLDASM</FileName>
+      <SHA1>613EB5FEB5BC57B18FCE15F47E9EAA9540C660D6</SHA1>
+      <FileSize>2527232</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev12\Tool\tool_mock.SLDPRT</FileName>
+      <SHA1>B9E9E88BED3AF96078C2ECB9C24D92C896F3882C</SHA1>
+      <FileSize>634368</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev12\Tool\tool_mount_v7.SLDPRT</FileName>
+      <SHA1>E952F5CCC2F9D373F287237EE3EF55E74C5C0CEE</SHA1>
+      <FileSize>1374208</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev12\Tool\tool_rubber_stopper.SLDPRT</FileName>
+      <SHA1>5B96D0336D70D00DF0DFF81B4C9031D61EC86D98</SHA1>
+      <FileSize>202752</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev12\Head_Extruder.sldprt</FileName>
+      <SHA1>5981021D34180B281DBBC801EF9FA8926DADB3B3</SHA1>
+      <FileSize>425472</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev12\NavByBending.SLDASM</FileName>
+      <SHA1>A111E9B4CFB1255BB201A2FE424BF7E790EDEB00</SHA1>
+      <FileSize>1821184</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev6\91292A117.SLDPRT</FileName>
+      <SHA1>C118A689EF51424EBFA2CD832FB626842154C53A</SHA1>
+      <FileSize>1101824</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev6\92095A177.SLDPRT</FileName>
+      <SHA1>FEB2A3ADFE026EF13EC29BAF11E9AD29FC2C616A</SHA1>
+      <FileSize>800768</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev6\92290A330.SLDPRT</FileName>
+      <SHA1>C7EA39A5ECC2BC301413A69981D56C111139A5C1</SHA1>
+      <FileSize>1849344</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev6\94000A035.SLDPRT</FileName>
+      <SHA1>FE500013EE8E33B76C460BA1E37E8C8BFEC560C8</SHA1>
+      <FileSize>560640</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev6\94095A110.SLDPRT</FileName>
+      <SHA1>A14CFCA6740CB64C4D5F4C67C386DC9898F3DB6A</SHA1>
+      <FileSize>1128448</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev6\couple v4.SLDPRT</FileName>
+      <SHA1>0EAC1945ACB524663D062777DA2124164C944F58</SHA1>
+      <FileSize>391680</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev6\end_effector_mount3.SLDPRT</FileName>
+      <SHA1>BDFC605FE6EB681D53EB692F4093FEE7754CE431</SHA1>
+      <FileSize>970752</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev6\Nane25E(2).SLDPRT</FileName>
+      <SHA1>32D836C858FFA77C6E06AD05CA4E3E6FE93B0EEE</SHA1>
+      <FileSize>715776</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev6\Nane25E.SLDPRT</FileName>
+      <SHA1>F2C7E423EC5FFB4D6FB92F54CC8501403D3DCDD4</SHA1>
+      <FileSize>755200</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev6\robotmount_v4.SLDPRT</FileName>
+      <SHA1>AC1F8AA42A5A9071B5496CB1B4AA8409A7614008</SHA1>
+      <FileSize>1788928</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev6\robo_end_effector_mock.SLDPRT</FileName>
+      <SHA1>1DEB26514139A21ED255E3D35305B6965A0FB45A</SHA1>
+      <FileSize>142336</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev6\scap2.SLDPRT</FileName>
+      <SHA1>25088EA88A8B02D195BAFD41298CEA44F5442436</SHA1>
+      <FileSize>6850560</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev6\t.11.sldprt</FileName>
+      <SHA1>6C78685862BF3B7B42ECA504D12F3C4FF99D0FB8</SHA1>
+      <FileSize>63488</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev6\the_works(2).SLDASM</FileName>
+      <SHA1>1340535F18AF8632577FD1768EDD7B4AEFFA81E5</SHA1>
+      <FileSize>5144064</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev6\the_works.SLDASM</FileName>
+      <SHA1>A19F25940B9AF90FA544F195119A918C0C422444</SHA1>
+      <FileSize>6996992</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev6\tool_mock.SLDPRT</FileName>
+      <SHA1>0E37C9C2F96DF61DF02357B61EDD9357480F6F5E</SHA1>
+      <FileSize>363008</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev6_patent\91292A117.SLDPRT</FileName>
+      <SHA1>C118A689EF51424EBFA2CD832FB626842154C53A</SHA1>
+      <FileSize>1101824</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev6_patent\92095A177.SLDPRT</FileName>
+      <SHA1>FEB2A3ADFE026EF13EC29BAF11E9AD29FC2C616A</SHA1>
+      <FileSize>800768</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev6_patent\92290A330.SLDPRT</FileName>
+      <SHA1>C7EA39A5ECC2BC301413A69981D56C111139A5C1</SHA1>
+      <FileSize>1849344</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev6_patent\94000A035.SLDPRT</FileName>
+      <SHA1>FE500013EE8E33B76C460BA1E37E8C8BFEC560C8</SHA1>
+      <FileSize>560640</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev6_patent\94095A110.SLDPRT</FileName>
+      <SHA1>A14CFCA6740CB64C4D5F4C67C386DC9898F3DB6A</SHA1>
+      <FileSize>1128448</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev6_patent\couple v4.SLDPRT</FileName>
+      <SHA1>0EAC1945ACB524663D062777DA2124164C944F58</SHA1>
+      <FileSize>391680</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev6_patent\end_effector_mount3.SLDPRT</FileName>
+      <SHA1>BDFC605FE6EB681D53EB692F4093FEE7754CE431</SHA1>
+      <FileSize>970752</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev6_patent\Nane25E.SLDPRT</FileName>
+      <SHA1>F2C7E423EC5FFB4D6FB92F54CC8501403D3DCDD4</SHA1>
+      <FileSize>755200</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev6_patent\patient_specific_mount.sldprt</FileName>
+      <SHA1>3460A4BBBA537AE3236A263D2B06BE69D747DB2C</SHA1>
+      <FileSize>6081536</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev6_patent\robotmount_v4.SLDPRT</FileName>
+      <SHA1>38EA81E00A97E175ECF1E603FD58D61F307BE35C</SHA1>
+      <FileSize>1794560</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev6_patent\robo_end_effector_mock.SLDPRT</FileName>
+      <SHA1>1DEB26514139A21ED255E3D35305B6965A0FB45A</SHA1>
+      <FileSize>142336</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev6_patent\scap.SLDPRT</FileName>
+      <SHA1>BEA0B34153B6944BEC96F24D9EA27AFD9125D6B3</SHA1>
+      <FileSize>6027264</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev6_patent\scap2.SLDPRT</FileName>
+      <SHA1>2B662E21A9B941860BFDC0294BE2CCAE880E9499</SHA1>
+      <FileSize>6811136</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev6_patent\t.11.sldprt</FileName>
+      <SHA1>6C78685862BF3B7B42ECA504D12F3C4FF99D0FB8</SHA1>
+      <FileSize>63488</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev6_patent\the_works.SLDASM</FileName>
+      <SHA1>D66F4C4990A66068E263692A138A5EC09785DA15</SHA1>
+      <FileSize>7873024</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev6_patent\tool_mock.SLDPRT</FileName>
+      <SHA1>8038181DF0E814C85CA7C74155BB9CFCD71ABA43</SHA1>
+      <FileSize>369152</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev6_patent\wire_starting.SLDPRT</FileName>
+      <SHA1>41C0114F4891ADD0E2CD87375620FDC0CC98C4BD</SHA1>
+      <FileSize>275456</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\90116A202.SLDPRT</FileName>
+      <SHA1>7B9E0479ED0DD5297A23A1A6D2543FDE8028D187</SHA1>
+      <FileSize>499200</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\90910A718.SLDPRT</FileName>
+      <SHA1>D11C5074C553694969D5C8B3E214AF0301F2F0CC</SHA1>
+      <FileSize>1252352</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\91292A117.SLDPRT</FileName>
+      <SHA1>C118A689EF51424EBFA2CD832FB626842154C53A</SHA1>
+      <FileSize>1101824</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\91735A010.SLDPRT</FileName>
+      <SHA1>6ED9300D8E2D6149E3E29AFCC82520427D83DDF9</SHA1>
+      <FileSize>596480</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\92095A177.SLDPRT</FileName>
+      <SHA1>FEB2A3ADFE026EF13EC29BAF11E9AD29FC2C616A</SHA1>
+      <FileSize>800768</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\92290A330.SLDPRT</FileName>
+      <SHA1>C7EA39A5ECC2BC301413A69981D56C111139A5C1</SHA1>
+      <FileSize>1849344</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\94000A035.SLDPRT</FileName>
+      <SHA1>FE500013EE8E33B76C460BA1E37E8C8BFEC560C8</SHA1>
+      <FileSize>560640</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\94095A110.SLDPRT</FileName>
+      <SHA1>A14CFCA6740CB64C4D5F4C67C386DC9898F3DB6A</SHA1>
+      <FileSize>1128448</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\bent_wire.SLDPRT</FileName>
+      <SHA1>592DC8FCE336AACB0254D9E0FBA87A5E6E309A5A</SHA1>
+      <FileSize>660480</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\couple v4.SLDPRT</FileName>
+      <SHA1>0EAC1945ACB524663D062777DA2124164C944F58</SHA1>
+      <FileSize>391680</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\cross_platform.SLDPRT</FileName>
+      <SHA1>1AC3741D9B8FDA4A9C32086C55E4C18DC842B257</SHA1>
+      <FileSize>387072</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\cross_platform.STL</FileName>
+      <SHA1>5FF8D43CE8515FD209A733D21441B9E5902FD0A6</SHA1>
+      <FileSize>120684</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\end_effector_mount3.SLDPRT</FileName>
+      <SHA1>BDFC605FE6EB681D53EB692F4093FEE7754CE431</SHA1>
+      <FileSize>970752</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\lc_mount_base.SLDPRT</FileName>
+      <SHA1>AFE0F612615CD396FA7AA2C3E39CECA87E919316</SHA1>
+      <FileSize>154624</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\lc_tilt_mount.SLDPRT</FileName>
+      <SHA1>F771180C5B889D110164E4FEB861CC2798370C02</SHA1>
+      <FileSize>270848</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\lc_tilt_mount.STL</FileName>
+      <SHA1>10C9C26D8F6EE13C1D45D628C276A14031DA58E1</SHA1>
+      <FileSize>163784</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\Nane25E.SLDPRT</FileName>
+      <SHA1>F2C7E423EC5FFB4D6FB92F54CC8501403D3DCDD4</SHA1>
+      <FileSize>755200</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\NavByWire.SLDASM</FileName>
+      <SHA1>9D23E47EE8E8A29456283D94361936543664051B</SHA1>
+      <FileSize>8307712</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\nav_by_wire_rev7.SLDASM</FileName>
+      <SHA1>1DFC9B4F5840727036C23B034F887D4BC1ED4864</SHA1>
+      <FileSize>1580032</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\patient_specific_mount.sldprt</FileName>
+      <SHA1>062EF5180630EAFFBE1A08A97DE7BCE3784EE2C7</SHA1>
+      <FileSize>5752832</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\patient_specific_mount2.STL</FileName>
+      <SHA1>17D08A2B50230B86D4C786C02262659EE8D32C1D</SHA1>
+      <FileSize>1124484</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\pen_tool_rubber_stopper.STL</FileName>
+      <SHA1>DEA986168C491C2D8C59A3B5327FE0F366A1C530</SHA1>
+      <FileSize>17484</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\placed_for_3d_printing.SLDASM</FileName>
+      <SHA1>8A2B2C4131C1D86762B94872AEA7EBF7263A682F</SHA1>
+      <FileSize>537088</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\placed_for_3d_printing.STL</FileName>
+      <SHA1>90FDC03ED3FB9D43500C327AD7C13AA06767433E</SHA1>
+      <FileSize>1117284</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\print_me.STL</FileName>
+      <SHA1>3274D4AA7FE8A4AFE1593F35E027613DD1072C6A</SHA1>
+      <FileSize>149784</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\robotmount_v4.SLDPRT</FileName>
+      <SHA1>599395E3F201F5396241C488AEA58CD72AE5041C</SHA1>
+      <FileSize>2442752</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\robotmount_v7.STL</FileName>
+      <SHA1>445FF57C7F2670965893A9A42E20958C9411AFDC</SHA1>
+      <FileSize>388084</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\robo_end_effector_mock.SLDPRT</FileName>
+      <SHA1>1DEB26514139A21ED255E3D35305B6965A0FB45A</SHA1>
+      <FileSize>142336</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\scap.SLDPRT</FileName>
+      <SHA1>8D698129E02B4A46D47F328E7026DD0124BA9089</SHA1>
+      <FileSize>6985216</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\servo_city_tilt_abstraction.SLDASM</FileName>
+      <SHA1>F7EE1F10BF86575ABB2E164C2F4E788B11AEB191</SHA1>
+      <FileSize>122880</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\servo_city_tilt_abstraction.SLDPRT</FileName>
+      <SHA1>63B8ABE3A6CC89406798C7D864EF6A748941CF60</SHA1>
+      <FileSize>495616</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\stand_mount.SLDPRT</FileName>
+      <SHA1>ECDAC4948AC69F8EAB7065D85086D7E3EF885307</SHA1>
+      <FileSize>244736</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\stand_mount.STL</FileName>
+      <SHA1>E047C1797252D1515BA43EC5EA793B2F74CF517E</SHA1>
+      <FileSize>117484</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\straight_wire.SLDPRT</FileName>
+      <SHA1>73BB2BAC56D5829072203734650601B165B46FF4</SHA1>
+      <FileSize>110080</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\t.11.sldprt</FileName>
+      <SHA1>6C78685862BF3B7B42ECA504D12F3C4FF99D0FB8</SHA1>
+      <FileSize>63488</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\the_works.SLDASM</FileName>
+      <SHA1>7B8EBC7DFB994EE071ADDA412A6E1CE0D59D85CB</SHA1>
+      <FileSize>7201792</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\tilt_mount.SLDPRT</FileName>
+      <SHA1>873DACF485742FE11A6FCBAC658ADF4C557A7FF2</SHA1>
+      <FileSize>152064</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\tilt_mount.STL</FileName>
+      <SHA1>1A649258270AE6F8209EB63CC61D520D9535FC4F</SHA1>
+      <FileSize>86884</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\tool_mock.SLDPRT</FileName>
+      <SHA1>FA4ECB6EBE87A9CDB611D472152C7796511A2EF3</SHA1>
+      <FileSize>620032</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\tool_mount_v7.SLDPRT</FileName>
+      <SHA1>7FFE49718330F9A4F903F2CD9B7658AEDD9A7DC3</SHA1>
+      <FileSize>1347072</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\tool_mount_v7_bottom.STL</FileName>
+      <SHA1>7FAD8931389F4DDA7B53F86907F8FD604DC3037F</SHA1>
+      <FileSize>709084</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\tool_mount_v7_top.STL</FileName>
+      <SHA1>BD406DD1240ADB106A8B5B5F6FA3E4374581680C</SHA1>
+      <FileSize>317284</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\tool_rubber_stopper.SLDPRT</FileName>
+      <SHA1>5B96D0336D70D00DF0DFF81B4C9031D61EC86D98</SHA1>
+      <FileSize>202752</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\tool_rubber_stopper.STL</FileName>
+      <SHA1>CCD93331E40C4E71A0295E722EDDD2FD4DE6DFF9</SHA1>
+      <FileSize>17684</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\wire_load_cell_mount.SLDPRT</FileName>
+      <SHA1>E7B2B9D1F7AB495FA8A1BA607ED39DC66C2A8090</SHA1>
+      <FileSize>770560</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\wire_load_cell_mount.STL</FileName>
+      <SHA1>D194BE8D754AFD269C30EF366D7AD1E3F03BF46C</SHA1>
+      <FileSize>64484</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\wire_load_cell_mount_b.STL</FileName>
+      <SHA1>F6A805BBCC7F02195F1E97E6A8808A1089F9670C</SHA1>
+      <FileSize>64284</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev7\wire_starting.SLDPRT</FileName>
+      <SHA1>B363EFEE3D07346F77859B13FD58A29F4804635B</SHA1>
+      <FileSize>431616</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\drawings\Macro1.swp</FileName>
+      <SHA1>615495627BCF2254D8EFBE84788F59B5652472D0</SHA1>
+      <FileSize>22016</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\drawings\matthewbstokes_fixture_mount_drawing.PDF</FileName>
+      <SHA1>CB4FD349107C7EE491A010041521D0B9D2CDFA56</SHA1>
+      <FileSize>49370</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\drawings\matthewbstokes_fixture_mount_drawing_rev_b.PDF</FileName>
+      <SHA1>808459C3CEFC4DDD7E8EF3198C96EBF7EFAD9B5C</SHA1>
+      <FileSize>49719</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\drawings\matthewbstokes_load_cell_mount_drawing.PDF</FileName>
+      <SHA1>9CE3980A6C4322D8B97CAE64909E8CD148E5EE77</SHA1>
+      <FileSize>51552</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\drawings\matthewbstokes_load_cell_mount_drawing_rev_b.PDF</FileName>
+      <SHA1>747D96BD250A837ADB320FBEE1C7381D67AA3FA1</SHA1>
+      <FileSize>51620</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\drawings\matthewbstokes_mount_plate_drawing.PDF</FileName>
+      <SHA1>7F501F3E103A7211FEC06EFD0228D3E2D909DF98</SHA1>
+      <FileSize>48104</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\drawings\matthewbstokes_mount_plate_drawing_rev_b.PDF</FileName>
+      <SHA1>92C157668BE5F8DF441AFC85A5A70C0965F2BCF0</SHA1>
+      <FileSize>48178</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\drawings\matthewbstokes_wire_mount_drawing.PDF</FileName>
+      <SHA1>A1AFECCB07889C2EDCF233CC5EBDD6468A6D7C5F</SHA1>
+      <FileSize>46456</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\drawings\matthewbstokes_wire_mount_drawing_rev_b.PDF</FileName>
+      <SHA1>A43374E3785F04FAC137825559DA669C0D65A582</SHA1>
+      <FileSize>46543</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\Macro1\SwMacro\bin\Macro1.dll</FileName>
+      <SHA1>38A8E11BC5530662EBED416F9E5E971544479E95</SHA1>
+      <FileSize>32768</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\Macro1\SwMacro\bin\Macro1.pdb</FileName>
+      <SHA1>D33C54773ABACE5E089BD099751F695FE83C21CF</SHA1>
+      <FileSize>46592</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\Macro1\SwMacro\bin\SolidWorks.Interop.SldWorks.dll</FileName>
+      <SHA1>54154D20D3CB2DBF645BC4EC9D6050341BC74FA2</SHA1>
+      <FileSize>2125824</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\Macro1\SwMacro\bin\SolidWorks.Interop.swconst.dll</FileName>
+      <SHA1>979E32A67C0312F9A6529A03FF74097850FE57FB</SHA1>
+      <FileSize>348160</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\Macro1\SwMacro\bin\SolidWorks.IRemoteInteropObjectContract.dll</FileName>
+      <SHA1>3A9AACA23AADA20C2C0FA66794A748E829DD436F</SHA1>
+      <FileSize>13864</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\Macro1\SwMacro\bin\SolidWorks.Proxy.Sldworks.dll</FileName>
+      <SHA1>E53452D4E5C81B099D1B1D7152D891D9F06BF13D</SHA1>
+      <FileSize>26152</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\Macro1\SwMacro\My Project\AssemblyInfo.vb</FileName>
+      <SHA1>1F2643348A2A401DEDEA19529078B0C19CBA08CD</SHA1>
+      <FileSize>1241</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\Macro1\SwMacro\My Project\Resources.Designer.vb</FileName>
+      <SHA1>9F651F668869A76C6AB9CE111C59CB699B40E009</SHA1>
+      <FileSize>2377</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\Macro1\SwMacro\My Project\Resources.resx</FileName>
+      <SHA1>47B15748ECC8E952C5935170090DB7C269CE4B4F</SHA1>
+      <FileSize>5612</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\Macro1\SwMacro\My Project\Settings.Designer.vb</FileName>
+      <SHA1>FD518E6E3498B8943F9A330B82B7C27B8D4F4FE8</SHA1>
+      <FileSize>1274</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\Macro1\SwMacro\My Project\Settings.settings</FileName>
+      <SHA1>297946F547902D89E9737F8EC410F299605E409C</SHA1>
+      <FileSize>203</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\Macro1\SwMacro\obj\Debug\Macro1.dll</FileName>
+      <SHA1>38A8E11BC5530662EBED416F9E5E971544479E95</SHA1>
+      <FileSize>32768</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\Macro1\SwMacro\obj\Debug\Macro1.pdb</FileName>
+      <SHA1>D33C54773ABACE5E089BD099751F695FE83C21CF</SHA1>
+      <FileSize>46592</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\Macro1\SwMacro\obj\Debug\Macro1.vbproj.GenerateResource.Cache</FileName>
+      <SHA1>7B50CEA69754494FE9234645FBED038711B43E8C</SHA1>
+      <FileSize>784</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\Macro1\SwMacro\obj\Debug\Macro1.vbproj.Resources.resources</FileName>
+      <SHA1>78147369BCAC902B8AEFBE59E26852E0E179BFB6</SHA1>
+      <FileSize>180</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\Macro1\SwMacro\obj\Debug\ResolveAssemblyReference.cache</FileName>
+      <SHA1>41995EDA2C009CC10459DDE23108B52541D83492</SHA1>
+      <FileSize>21837</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\Macro1\SwMacro\obj\Macro1.vbproj.FileListAbsolute.txt</FileName>
+      <SHA1>757090B66C7FEEF0F9F0DE4A0B693D81B979A5C0</SHA1>
+      <FileSize>1149</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\Macro1\SwMacro\Macro1.vbproj</FileName>
+      <SHA1>0444AFDBEA4F34A1EB4BA13534692522FC445153</SHA1>
+      <FileSize>8457</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\Macro1\SwMacro\Macro1.vbproj.user</FileName>
+      <SHA1>A483B2106C1B805E661680C57579E4BB409890C0</SHA1>
+      <FileSize>220</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\Macro1\SwMacro\SolidWorksMacro.designer.vb</FileName>
+      <SHA1>98BD8E511C1B37D312379DA28F4EA2CC2F368C6C</SHA1>
+      <FileSize>2504</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\Macro1\SwMacro\SolidWorksMacro.designer.xml</FileName>
+      <SHA1>B030A77212F62ABA7350779BE1819BE7D0DE6831</SHA1>
+      <FileSize>579</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\Macro1\SwMacro\SolidWorksMacro.vb</FileName>
+      <SHA1>CCC2827FE925E7A61537685CE83614CC5F2698BF</SHA1>
+      <FileSize>3909</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\Macro1\SwMacro\SolidWorksMacroStartup.vb</FileName>
+      <SHA1>3C7DA60F636A08D0EA55FF8F3463439E53B470EC</SHA1>
+      <FileSize>3587</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\Macro1\SwMacro.sln</FileName>
+      <SHA1>82EEA15DF4B05A25A34F3E77D16A2D7A15B3ED6A</SHA1>
+      <FileSize>931</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\Macro1\SwMacro.suo</FileName>
+      <SHA1>B0B66F8F309C577710CBF023B68DEBA1671BA70E</SHA1>
+      <FileSize>16384</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\90116A202.SLDPRT</FileName>
+      <SHA1>7B9E0479ED0DD5297A23A1A6D2543FDE8028D187</SHA1>
+      <FileSize>499200</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\90592A009.SLDPRT</FileName>
+      <SHA1>5BA6DD93473615F114B9EA7DA804A67DB99B1DDE</SHA1>
+      <FileSize>647680</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\91111A118.SLDPRT</FileName>
+      <SHA1>AE4E802B7AFA73D847EC725FEE919DDB3B5F89E8</SHA1>
+      <FileSize>249856</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\91290A113.SLDPRT</FileName>
+      <SHA1>F5432E7606C49ACDC4D4A594066F4BB25D59DA19</SHA1>
+      <FileSize>1248256</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\91290A115.SLDPRT</FileName>
+      <SHA1>2B030455D733B146B1C4C0350580AA8FD7076AC8</SHA1>
+      <FileSize>1349120</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\91290A117.SLDPRT</FileName>
+      <SHA1>E2146DFCFC1F7C3413323EF343A787CC305736A8</SHA1>
+      <FileSize>1419776</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\91290A120.SLDPRT</FileName>
+      <SHA1>604347A7BF6900F40D3EECB5D7154E73D9EE6AE7</SHA1>
+      <FileSize>1546752</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\91290A418.SLDPRT</FileName>
+      <SHA1>715E437E5A66F063C16BFFB7E45360A47F2B0D71</SHA1>
+      <FileSize>1222656</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\91290A426.SLDPRT</FileName>
+      <SHA1>D9007BC4F1DD14C7206BADC6F00F06CA5CD6F3D0</SHA1>
+      <FileSize>1275392</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\93070A061.SLDPRT</FileName>
+      <SHA1>5E7166DFA127FF3CED7413E51D257657F19EF9E8</SHA1>
+      <FileSize>719360</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\93070A070.SLDPRT</FileName>
+      <SHA1>C3C7E9846BC83A489EE5EF4ED957F9A0B1398AEF</SHA1>
+      <FileSize>1057792</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\bent_wire.SLDPRT</FileName>
+      <SHA1>592DC8FCE336AACB0254D9E0FBA87A5E6E309A5A</SHA1>
+      <FileSize>660480</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\cross_platform.SLDPRT</FileName>
+      <SHA1>4FE25F025AFA22297929689269BC42438BCBB5E5</SHA1>
+      <FileSize>803840</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\lc_mount_base.SLDPRT</FileName>
+      <SHA1>AFE0F612615CD396FA7AA2C3E39CECA87E919316</SHA1>
+      <FileSize>154624</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\lc_tilt_mount.SLDPRT</FileName>
+      <SHA1>B761EF1EB05900CDEA7D847A6FF23557838B5677</SHA1>
+      <FileSize>210432</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\mount2.SLDPRT</FileName>
+      <SHA1>BB9D731B757B12271F75B3645F523B4983EAA9D5</SHA1>
+      <FileSize>209920</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\mount_plate.SLDDRW</FileName>
+      <SHA1>8A12870A46356007BCFB6759635B2788CC0A99F4</SHA1>
+      <FileSize>408064</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\Nane25E.SLDPRT</FileName>
+      <SHA1>F2C7E423EC5FFB4D6FB92F54CC8501403D3DCDD4</SHA1>
+      <FileSize>755200</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\nav_by_wire_rev7.SLDASM</FileName>
+      <SHA1>C483E2011D5949FED63D5B63093A853A1B67C6A0</SHA1>
+      <FileSize>1433600</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\nav_by_wire_rev8.SLDASM</FileName>
+      <SHA1>6764C07626A6BDCAE6B3C7C487439F8CDD186821</SHA1>
+      <FileSize>3872768</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\PerformanceLog.txt</FileName>
+      <SHA1>3EE044B892A9F6979D962CCB967C10256DA86514</SHA1>
+      <FileSize>61</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\robo_end_effector_mock.SLDPRT</FileName>
+      <SHA1>1DEB26514139A21ED255E3D35305B6965A0FB45A</SHA1>
+      <FileSize>142336</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\servo_city_tilt_abstraction.SLDPRT</FileName>
+      <SHA1>63B8ABE3A6CC89406798C7D864EF6A748941CF60</SHA1>
+      <FileSize>495616</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\stand_mount.SLDDRW</FileName>
+      <SHA1>23A9104F3A87D23CFCA397ECCB4E83B25FB77A08</SHA1>
+      <FileSize>400384</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\stand_mount.SLDPRT</FileName>
+      <SHA1>8216A16D57FEFD835D98EF6932B460BC8CD31940</SHA1>
+      <FileSize>249344</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\straight_wire-Copy of [Nonlinear 3].LOG</FileName>
+      <SHA1>8BC7E5F623886E581F3B8A5D8620FDE7541B6358</SHA1>
+      <FileSize>238</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\straight_wire-Nonlinear 3.LOG</FileName>
+      <SHA1>25B9B4C97EB714434416BB80A7E38DF49D5F39EE</SHA1>
+      <FileSize>1236</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\straight_wire.SLDPRT</FileName>
+      <SHA1>2E63AE286FE888E8A6A38C56FB58FF7E967C9A42</SHA1>
+      <FileSize>404480</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\the_works.SLDASM</FileName>
+      <SHA1>9455EB1B441CBF965B1E6A8441E97FD3EC1B3845</SHA1>
+      <FileSize>6974464</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\tool_mock.SLDPRT</FileName>
+      <SHA1>BE7FD289803F278F3CAACDD9218C52D36AD69EB6</SHA1>
+      <FileSize>673792</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\tool_mount_v7.SLDPRT</FileName>
+      <SHA1>7FFE49718330F9A4F903F2CD9B7658AEDD9A7DC3</SHA1>
+      <FileSize>1347072</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\tool_rubber_stopper.SLDPRT</FileName>
+      <SHA1>5B96D0336D70D00DF0DFF81B4C9031D61EC86D98</SHA1>
+      <FileSize>202752</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\wire_load_cell_mount.SLDPRT</FileName>
+      <SHA1>E7B2B9D1F7AB495FA8A1BA607ED39DC66C2A8090</SHA1>
+      <FileSize>770560</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\wire_mount.SLDDRW</FileName>
+      <SHA1>8664C2C4A8CCF4BB95A15917C2BA0EFE24B33D41</SHA1>
+      <FileSize>668672</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8\wire_mount.SLDPRT</FileName>
+      <SHA1>75BDDF724B751EDC8AADD0E95D13F1CCE0781D1A</SHA1>
+      <FileSize>372224</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8_3DPrinted\91111A118.SLDPRT</FileName>
+      <SHA1>AE4E802B7AFA73D847EC725FEE919DDB3B5F89E8</SHA1>
+      <FileSize>249856</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8_3DPrinted\91290A117.SLDPRT</FileName>
+      <SHA1>E2146DFCFC1F7C3413323EF343A787CC305736A8</SHA1>
+      <FileSize>1419776</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8_3DPrinted\91290A418.SLDPRT</FileName>
+      <SHA1>715E437E5A66F063C16BFFB7E45360A47F2B0D71</SHA1>
+      <FileSize>1222656</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8_3DPrinted\93070A061.SLDPRT</FileName>
+      <SHA1>5E7166DFA127FF3CED7413E51D257657F19EF9E8</SHA1>
+      <FileSize>719360</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8_3DPrinted\93070A070.SLDPRT</FileName>
+      <SHA1>C3C7E9846BC83A489EE5EF4ED957F9A0B1398AEF</SHA1>
+      <FileSize>1057792</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8_3DPrinted\cross_platform.SLDPRT</FileName>
+      <SHA1>2C98FF6823060C7AF42C7736B53798D3C4FD8BEA</SHA1>
+      <FileSize>547328</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8_3DPrinted\Nane25E.SLDPRT</FileName>
+      <SHA1>A9A53202A01DDDF8E508E7C187B26230C8279774</SHA1>
+      <FileSize>1551872</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8_3DPrinted\nav_by_wire_rev8.SLDASM</FileName>
+      <SHA1>4B946B9ECD89B0E1F87BC6B93046128C5F9B1C6B</SHA1>
+      <FileSize>3319296</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8_3DPrinted\robo_end_effector_mock.SLDPRT</FileName>
+      <SHA1>1DEB26514139A21ED255E3D35305B6965A0FB45A</SHA1>
+      <FileSize>142336</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8_3DPrinted\stand_mount.SLDPRT</FileName>
+      <SHA1>8216A16D57FEFD835D98EF6932B460BC8CD31940</SHA1>
+      <FileSize>249344</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8_3DPrinted\straight_wire.SLDPRT</FileName>
+      <SHA1>5ECDCED215F83CEE4BA824DBEB11A747240F90BC</SHA1>
+      <FileSize>428544</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8_3DPrinted\tool_mock.SLDPRT</FileName>
+      <SHA1>2732DA4A7C41717E65EA60F07F19AA6F29D49B4B</SHA1>
+      <FileSize>640000</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8_3DPrinted\tool_mount_v7.SLDPRT</FileName>
+      <SHA1>7FFE49718330F9A4F903F2CD9B7658AEDD9A7DC3</SHA1>
+      <FileSize>1347072</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8_3DPrinted\tool_rubber_stopper.SLDPRT</FileName>
+      <SHA1>5B96D0336D70D00DF0DFF81B4C9031D61EC86D98</SHA1>
+      <FileSize>202752</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev8_3DPrinted\wire_mount.SLDPRT</FileName>
+      <SHA1>AC348796ADCAF1028F98D7D890DC67C25E7CBFD9</SHA1>
+      <FileSize>419328</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev9\91111A118.SLDPRT</FileName>
+      <SHA1>AE4E802B7AFA73D847EC725FEE919DDB3B5F89E8</SHA1>
+      <FileSize>249856</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev9\91290A115.SLDPRT</FileName>
+      <SHA1>119E83397B182D0C080C9EEB6C2C607E0CE7D208</SHA1>
+      <FileSize>1345536</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev9\91290A117.SLDPRT</FileName>
+      <SHA1>886BDE1D0FF43E894C7618FCA7D54096BF9EC67A</SHA1>
+      <FileSize>1422848</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev9\91290A123.SLDPRT</FileName>
+      <SHA1>22E20FFFF4ADA7200EB30FFDD158C8452BA08C07</SHA1>
+      <FileSize>1998336</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev9\91290A418.SLDPRT</FileName>
+      <SHA1>715E437E5A66F063C16BFFB7E45360A47F2B0D71</SHA1>
+      <FileSize>1222656</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev9\92290A330.SLDPRT</FileName>
+      <SHA1>C7EA39A5ECC2BC301413A69981D56C111139A5C1</SHA1>
+      <FileSize>1849344</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev9\93070A061.SLDPRT</FileName>
+      <SHA1>5E7166DFA127FF3CED7413E51D257657F19EF9E8</SHA1>
+      <FileSize>719360</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev9\93070A070.SLDPRT</FileName>
+      <SHA1>C3C7E9846BC83A489EE5EF4ED957F9A0B1398AEF</SHA1>
+      <FileSize>1057792</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev9\AssemblyDrawing.SLDDRW</FileName>
+      <SHA1>51DC2332B1D9EA5432EA006D162391F7E4254C2B</SHA1>
+      <FileSize>417280</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev9\AssemblyExplodedDrawing.SLDDRW</FileName>
+      <SHA1>553FEC5C0F1B7A0A837B64D37551EE5C2BC1F557</SHA1>
+      <FileSize>6737408</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev9\cross_platform.SLDPRT</FileName>
+      <SHA1>F795E924EB0C130A9F854D432B91D5D046A53B8A</SHA1>
+      <FileSize>865792</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev9\lc_tilt_mount.SLDPRT</FileName>
+      <SHA1>F771180C5B889D110164E4FEB861CC2798370C02</SHA1>
+      <FileSize>270848</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev9\mount_plate.SLDPRT</FileName>
+      <SHA1>348DB4766B219F5162CC62EE00885E4A91B18642</SHA1>
+      <FileSize>150016</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev9\Nane25E.SLDPRT</FileName>
+      <SHA1>90C67C3E674EE3AA580A83C3DEAFFC84E06D9FCF</SHA1>
+      <FileSize>822784</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev9\nav_by_wire_rev9.SLDASM</FileName>
+      <SHA1>296FD8E1A682E94161605DD2C4A874B3890DC01B</SHA1>
+      <FileSize>8988160</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev9\PerformanceLog.txt</FileName>
+      <SHA1>3EE044B892A9F6979D962CCB967C10256DA86514</SHA1>
+      <FileSize>61</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev9\pre_bend_wire-Nonlinear 1.LOG</FileName>
+      <SHA1>B9E0D6D61459DAB1D6C0B05BF7E54045C90390F7</SHA1>
+      <FileSize>232</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev9\pre_bend_wire.sldprt</FileName>
+      <SHA1>97048528E0854700FB144C7BDE9BF7677B42E8C5</SHA1>
+      <FileSize>245760</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev9\robo_end_effector_mock.SLDPRT</FileName>
+      <SHA1>1DEB26514139A21ED255E3D35305B6965A0FB45A</SHA1>
+      <FileSize>142336</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev9\stand_mount.SLDPRT</FileName>
+      <SHA1>8216A16D57FEFD835D98EF6932B460BC8CD31940</SHA1>
+      <FileSize>249344</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev9\straight_wire-Nonlinear 4.LOG</FileName>
+      <SHA1>714D66DE09479F5A93D2C159F45479511682535F</SHA1>
+      <FileSize>238</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev9\straight_wire-Nonlinear 5.LOG</FileName>
+      <SHA1>81157E4FE5128B34C25D43A4FF9EAF1E01A5132D</SHA1>
+      <FileSize>680</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev9\straight_wire.SLDPRT</FileName>
+      <SHA1>6C0F5CBDEDC5397FD730CFB8783F93B01993C58D</SHA1>
+      <FileSize>531456</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev9\ToolHolderAssembly.PDF</FileName>
+      <SHA1>5D8837A3586FAA56E7FC522E09AD291573A8513A</SHA1>
+      <FileSize>119102</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev9\ToolHolderAssembly.SLDDRW</FileName>
+      <SHA1>D5EF355A516071E15BED7AA8F864F86E5468A50C</SHA1>
+      <FileSize>419840</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev9\tool_mock.SLDPRT</FileName>
+      <SHA1>A346CAF9DFFAC46D86AF76B2CDD2550E2AF3B7CA</SHA1>
+      <FileSize>633856</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev9\tool_mount_v7.SLDPRT</FileName>
+      <SHA1>7FFE49718330F9A4F903F2CD9B7658AEDD9A7DC3</SHA1>
+      <FileSize>1347072</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev9\tool_rubber_stopper.SLDPRT</FileName>
+      <SHA1>5B96D0336D70D00DF0DFF81B4C9031D61EC86D98</SHA1>
+      <FileSize>202752</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev9\wire_mount.SLDPRT</FileName>
+      <SHA1>0AA9CE77843FDE77C4B51E0C22FFA26D6895EFD2</SHA1>
+      <FileSize>427008</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NI_USB_6211\cu_conn_usb_621x.SLDPRT</FileName>
+      <SHA1>44DCDF8C84526B62830AFE94EB2BA39893377F7F</SHA1>
+      <FileSize>210944</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NI_USB_6211\cu_usb_621x_2conn.SLDPRT</FileName>
+      <SHA1>65B466052FAD05852BDB0F09369410573C91CE7E</SHA1>
+      <FileSize>7626752</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NI_USB_6211\NIUSB6211.SLDASM</FileName>
+      <SHA1>BE64BBAE1527C5EAEEDC5264D4370B03AEB75C11</SHA1>
+      <FileSize>4763648</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>Scapula\Glenoid.SLDPRT</FileName>
+      <SHA1>BEA0B34153B6944BEC96F24D9EA27AFD9125D6B3</SHA1>
+      <FileSize>6027264</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>OpticalTracker\smart_marker-scaled.SLDPRT</FileName>
+      <SHA1>99E3B2C5A9E8A5DED8307769F9D09547EAF581F0</SHA1>
+      <FileSize>620544</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev3\end_effector_mount.SLDPRT</FileName>
+      <SHA1>8D3F305925430964DFA6B8B16048B54E2F93C6E7</SHA1>
+      <FileSize>419840</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev3\end_effector_mount3.SLDPRT</FileName>
+      <SHA1>E474ED12A6971EEB957FF5FAAB60EC4977FA2C2D</SHA1>
+      <FileSize>482304</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev4\91292A117.SLDPRT</FileName>
+      <SHA1>DA1C8163604B084B51844BA04349DE9D8D35A115</SHA1>
+      <FileSize>1082880</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev4\91292A141.SLDPRT</FileName>
+      <SHA1>90CD9CB513A1916E55AD1B34738DAF3E3ADBF2D7</SHA1>
+      <FileSize>1264128</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev4\92095A177.SLDPRT</FileName>
+      <SHA1>52B0A95B5A7FED4A036505C87B68DBAA73181F7D</SHA1>
+      <FileSize>787456</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev4\92290A330.SLDPRT</FileName>
+      <SHA1>A4CD8905F215FC77403A9D17C56314E735737947</SHA1>
+      <FileSize>1327104</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev4\94095A110.SLDPRT</FileName>
+      <SHA1>9260B9C4787DB34357ED13229B67827EFD97EA1D</SHA1>
+      <FileSize>912384</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev4\Capture.PNG</FileName>
+      <SHA1>C8876ECEC438543DBD0B5459BE9F724B0519EDAB</SHA1>
+      <FileSize>53972</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev4\Capture2.PNG</FileName>
+      <SHA1>65916A67E7875450288060CB94F9FDA4F9583C2E</SHA1>
+      <FileSize>20043</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev4\couple v3.SLDPRT</FileName>
+      <SHA1>4C825D086C7F36381A04DD7E4EBAA4F16F7CEE1C</SHA1>
+      <FileSize>272384</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev4\couple v4.SLDPRT</FileName>
+      <SHA1>D3566726FAD22500C446679CF8FEC5B979B5EB79</SHA1>
+      <FileSize>374784</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev4\couple v4.STL</FileName>
+      <SHA1>529A4CE7AB729D32CA59789B08BE01838E5F9808</SHA1>
+      <FileSize>102484</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev4\end_effector_mount.SLDPRT</FileName>
+      <SHA1>31ED17774B881AAC4607B218E3FBF03648D36DC5</SHA1>
+      <FileSize>749056</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev4\end_effector_mount3.SLDPRT</FileName>
+      <SHA1>A119A52015006BAC8F5E8437699014B547AC23CE</SHA1>
+      <FileSize>673280</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev4\end_effector_mount3.STL</FileName>
+      <SHA1>4FE2A4235A6C7188E8BC5EA77D112942DE2F93B7</SHA1>
+      <FileSize>103484</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev4\load_cell_holder_v2.STL</FileName>
+      <SHA1>FE1F45DE2939A42E048F84583DB8AB9BAEAC83B5</SHA1>
+      <FileSize>113984</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev4\Nane25E.SLDPRT</FileName>
+      <SHA1>9B1CE66E9DA332BF6964177B8D68AC414FBCCF09</SHA1>
+      <FileSize>409600</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev4\robotmount2_v2.SLDPRT</FileName>
+      <SHA1>41B56C45E6B262ACA156E2EA1EA0D16CE2E85BEC</SHA1>
+      <FileSize>1270272</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev4\robotmount_v4.STL</FileName>
+      <SHA1>AFE4EE774741BDEC29F74912A426F5A529E44894</SHA1>
+      <FileSize>744484</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev4\robo_end_effector_mock.SLDPRT</FileName>
+      <SHA1>D8B6DD8B90A07B775B2E94D34037723B356DBD59</SHA1>
+      <FileSize>144384</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev4\the_works.SLDASM</FileName>
+      <SHA1>84554BE89F0BFEC6AE9183F32703F9A2E6ED4CC4</SHA1>
+      <FileSize>1384960</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev4\tool_mock.SLDPRT</FileName>
+      <SHA1>371F61979D9F6BA53A765BEB3CDC2C0401C2FFD8</SHA1>
+      <FileSize>311808</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev5\1.png</FileName>
+      <SHA1>5EEE93D10D6592FD9FB48505DDEC1BAD827CB07A</SHA1>
+      <FileSize>147077</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev5\1a.png</FileName>
+      <SHA1>2FC27B42DC8E43B1C46BB61CDDE53411DC64A30F</SHA1>
+      <FileSize>176216</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev5\2.png</FileName>
+      <SHA1>A2C73711AEEE812CFCA0B89FF85D8F63A774065D</SHA1>
+      <FileSize>58536</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev5\3.png</FileName>
+      <SHA1>AA2F3909E239B97E50E340A3B0A41C87F54E0283</SHA1>
+      <FileSize>30232</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev5\4.png</FileName>
+      <SHA1>EFE778088A9C0611422A380B50217603147F3AD8</SHA1>
+      <FileSize>130681</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev5\91292A117.SLDPRT</FileName>
+      <SHA1>DA1C8163604B084B51844BA04349DE9D8D35A115</SHA1>
+      <FileSize>1082880</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev5\92095A177.SLDPRT</FileName>
+      <SHA1>52B0A95B5A7FED4A036505C87B68DBAA73181F7D</SHA1>
+      <FileSize>787456</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev5\92290A330.SLDPRT</FileName>
+      <SHA1>12B2D2D239072506384CCC61159447B198960A8E</SHA1>
+      <FileSize>1324544</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev5\94000A035.SLDPRT</FileName>
+      <SHA1>492D10F3C9A1A3B30280E332546742A85582033E</SHA1>
+      <FileSize>549376</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev5\94095A110.SLDPRT</FileName>
+      <SHA1>9260B9C4787DB34357ED13229B67827EFD97EA1D</SHA1>
+      <FileSize>912384</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev5\couple v4.SLDPRT</FileName>
+      <SHA1>D3566726FAD22500C446679CF8FEC5B979B5EB79</SHA1>
+      <FileSize>374784</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev5\end_effector_mount3.SLDPRT</FileName>
+      <SHA1>CD782B884950CE6B3E25DE06FE76826434181C76</SHA1>
+      <FileSize>332800</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev5\fasteners_list.png</FileName>
+      <SHA1>22D763A9FB842269B45BF03D0B8EF060DF1FFE90</SHA1>
+      <FileSize>50266</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev5\lc_transformation.png</FileName>
+      <SHA1>C1F4B1ED771D86291FC2E19FA309444B377B232C</SHA1>
+      <FileSize>96815</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev5\Nane25E.SLDPRT</FileName>
+      <SHA1>7767DB772DC4952AEF4CFAFB98978E664CB60601</SHA1>
+      <FileSize>348672</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev5\r.STL</FileName>
+      <SHA1>DAE9C0AF830C87825A1EE232FCB3CE2F48543ECB</SHA1>
+      <FileSize>416884</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev5\robotmount_v4.SLDPRT</FileName>
+      <SHA1>313A5241BB797CD5866F8EF29CEF62A26F412A53</SHA1>
+      <FileSize>1750528</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev5\robo_end_effector_mock.SLDPRT</FileName>
+      <SHA1>D8B6DD8B90A07B775B2E94D34037723B356DBD59</SHA1>
+      <FileSize>144384</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev5\Screenshot from 2014-11-21 11_55_50.png</FileName>
+      <SHA1>3267C3E3983D11B454661115347B232095CDEA8D</SHA1>
+      <FileSize>170088</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev5\the_works.SLDASM</FileName>
+      <SHA1>B300FB6F9D9198FE4F746EA19742DCD7E76BAD47</SHA1>
+      <FileSize>3237376</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev5\tool_mock.SLDPRT</FileName>
+      <SHA1>C4108E1D132EBBFAF51C05F1191CB2934C9A6597</SHA1>
+      <FileSize>343040</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>KUKA_Staged\Assem5.SLDASM</FileName>
+      <SHA1>5E023C86A02FFDD2F58997922B34E70330B8B2E9</SHA1>
+      <FileSize>1862656</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>KUKA_Staged\Base.SLDPRT</FileName>
+      <SHA1>45AF7D01736CD360738B817739EEF302D26502DA</SHA1>
+      <FileSize>224256</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>KUKA_Staged\Caneca.SLDPRT</FileName>
+      <SHA1>552B5D521C894ABD2451CAB514719769CBFB8043</SHA1>
+      <FileSize>396800</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>KUKA_Staged\LBR4-Neukpl.sldasm-Part-42.sldprt</FileName>
+      <SHA1>68E0A111C30541CDD33F782D1E9828729F9A3B1B</SHA1>
+      <FileSize>121856</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>KUKA_Staged\LBR4-Neukpl.sldasm-Part-43.sldprt</FileName>
+      <SHA1>AA5B57CB6741006BF3E93BFD3A1F72EAF1AD5476</SHA1>
+      <FileSize>123904</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>KUKA_Staged\LBR4-Neukpl.sldasm-Part-44.sldprt</FileName>
+      <SHA1>F5D7AFA11A79F022F96B855B12245EA39FFAA649</SHA1>
+      <FileSize>128512</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>KUKA_Staged\LBR4-Neukpl.sldasm-Part-46.sldprt</FileName>
+      <SHA1>A2533BBAD8D9507BF083E3D2C65DCC550B694619</SHA1>
+      <FileSize>124928</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>KUKA_Staged\Link1.SLDPRT</FileName>
+      <SHA1>23DBF79E3F9EA0F478AE90BBD01D375FB94FF78E</SHA1>
+      <FileSize>343040</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>KUKA_Staged\Link2.SLDPRT</FileName>
+      <SHA1>27E216371ADD674308A1999DA114E32939A15996</SHA1>
+      <FileSize>483840</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>KUKA_Staged\Link3.SLDPRT</FileName>
+      <SHA1>2E51D9298ED14242628F0474CF7064ED697B12A1</SHA1>
+      <FileSize>482816</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>KUKA_Staged\Link4.SLDPRT</FileName>
+      <SHA1>2552EBB29139B8B66D32D16D4C062280B40FE4E2</SHA1>
+      <FileSize>484864</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>KUKA_Staged\Link5.SLDPRT</FileName>
+      <SHA1>482D0B5B9D030F0479EF4B30F23FFAF94F17D05F</SHA1>
+      <FileSize>460288</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>KUKA_Staged\Link6.SLDPRT</FileName>
+      <SHA1>C8D36FB33EEEC7A3DD5F0696132C9262E2E7F35F</SHA1>
+      <FileSize>708608</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>KUKA_Staged\Link7.SLDPRT</FileName>
+      <SHA1>97D5FA09E69D4A03C9FAD634709C5422C4D23BCA</SHA1>
+      <FileSize>276992</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>KUKA_Staged\lwr.SLDASM</FileName>
+      <SHA1>5CA29632C4E0BABD20AE75FE98934FB3388B6EDA</SHA1>
+      <FileSize>1891328</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>KUKA_Staged\TA414.SLDPRT</FileName>
+      <SHA1>A92FBBDF4855982428616B67C262B015CE71D499</SHA1>
+      <FileSize>154112</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev12\Tool\tool_mount_v7.STL</FileName>
+      <SHA1>26BEB38F5CC1ECB8713E7096E70FE177CE36CA59</SHA1>
+      <FileSize>764535</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev12\Tool\tool_mount_v7_with_opti_mount.SLDPRT</FileName>
+      <SHA1>D401D9A2F895916CEE70F9DCAFAB60175B8EA7AD</SHA1>
+      <FileSize>976896</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\wedge30_inversed.SLDPRT</FileName>
+      <SHA1>4450071B8B1E9A97AC59281C1AE725F507EA871D</SHA1>
+      <FileSize>349184</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev13\91290A099.SLDPRT</FileName>
+      <SHA1>D68F094B8EE6BBE2DBB44E83E04CE55089C891E5</SHA1>
+      <FileSize>970752</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev13\91290A115.SLDPRT</FileName>
+      <SHA1>50BADE8BF1A2E39C362682113DBF4AD3DF26BDF6</SHA1>
+      <FileSize>1374208</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev13\91290A123.SLDPRT</FileName>
+      <SHA1>894A4BED6C1B8EB815091772ED59C60C357EE5ED</SHA1>
+      <FileSize>1660416</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev13\91290A144.SLDPRT</FileName>
+      <SHA1>74928D537954B878F858563B652EEC15200EC599</SHA1>
+      <FileSize>1200128</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev13\91290A418.SLDPRT</FileName>
+      <SHA1>8EE8CBFAA38E1BA53141CFB1AA7F3F1A23D16595</SHA1>
+      <FileSize>1224704</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev13\91801A154.SLDPRT</FileName>
+      <SHA1>08BECEE2D1DF5D97AA60A498E1E0A40DD58C5FE2</SHA1>
+      <FileSize>1045504</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev13\92290A330.SLDPRT</FileName>
+      <SHA1>C7EA39A5ECC2BC301413A69981D56C111139A5C1</SHA1>
+      <FileSize>1849344</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev13\Base.SLDPRT</FileName>
+      <SHA1>45AF7D01736CD360738B817739EEF302D26502DA</SHA1>
+      <FileSize>224256</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev13\end_effector.SLDASM</FileName>
+      <SHA1>89C57DA23BC76BC34BFE6A48EC840177F1038143</SHA1>
+      <FileSize>4485120</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev13\fixation.SLDASM</FileName>
+      <SHA1>B7AD9F59E82006DB6E582F9D4F9B35780662D554</SHA1>
+      <FileSize>1054720</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev13\Head_Extruder.sldprt</FileName>
+      <SHA1>5981021D34180B281DBBC801EF9FA8926DADB3B3</SHA1>
+      <FileSize>425472</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev13\LBR4-Neukpl.sldasm-Part-42.sldprt</FileName>
+      <SHA1>68E0A111C30541CDD33F782D1E9828729F9A3B1B</SHA1>
+      <FileSize>121856</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev13\LBR4-Neukpl.sldasm-Part-43.sldprt</FileName>
+      <SHA1>AA5B57CB6741006BF3E93BFD3A1F72EAF1AD5476</SHA1>
+      <FileSize>123904</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev13\LBR4-Neukpl.sldasm-Part-44.sldprt</FileName>
+      <SHA1>F5D7AFA11A79F022F96B855B12245EA39FFAA649</SHA1>
+      <FileSize>128512</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev13\LBR4-Neukpl.sldasm-Part-46.sldprt</FileName>
+      <SHA1>A2533BBAD8D9507BF083E3D2C65DCC550B694619</SHA1>
+      <FileSize>124928</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev13\lc.SLDASM</FileName>
+      <SHA1>3F13A21F6D801D589D5826974FC4F77320E91166</SHA1>
+      <FileSize>2089984</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev13\Link1.SLDPRT</FileName>
+      <SHA1>23DBF79E3F9EA0F478AE90BBD01D375FB94FF78E</SHA1>
+      <FileSize>343040</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev13\Link2.SLDPRT</FileName>
+      <SHA1>27E216371ADD674308A1999DA114E32939A15996</SHA1>
+      <FileSize>483840</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev13\Link3.SLDPRT</FileName>
+      <SHA1>2E51D9298ED14242628F0474CF7064ED697B12A1</SHA1>
+      <FileSize>482816</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev13\Link4.SLDPRT</FileName>
+      <SHA1>2552EBB29139B8B66D32D16D4C062280B40FE4E2</SHA1>
+      <FileSize>484864</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev13\Link5.SLDPRT</FileName>
+      <SHA1>482D0B5B9D030F0479EF4B30F23FFAF94F17D05F</SHA1>
+      <FileSize>460288</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev13\Link6.SLDPRT</FileName>
+      <SHA1>C8D36FB33EEEC7A3DD5F0696132C9262E2E7F35F</SHA1>
+      <FileSize>708608</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev13\Link7.SLDPRT</FileName>
+      <SHA1>97D5FA09E69D4A03C9FAD634709C5422C4D23BCA</SHA1>
+      <FileSize>276992</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev13\mount_plate.SLDPRT</FileName>
+      <SHA1>0E9FA45EEC8F5301308849FCD46CAF67FFC4366D</SHA1>
+      <FileSize>162304</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev13\Nane25E.SLDPRT</FileName>
+      <SHA1>8B2940B4F0A829F2133FA45204A4CE7C89A3D468</SHA1>
+      <FileSize>2368512</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev13\NavByBending.SLDASM</FileName>
+      <SHA1>9EAAABA5F57CEC12C422D7ED34905779C896F6C1</SHA1>
+      <FileSize>7232512</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev13\smart_marker-scaled.SLDPRT</FileName>
+      <SHA1>99E3B2C5A9E8A5DED8307769F9D09547EAF581F0</SHA1>
+      <FileSize>620544</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev13\stand_mount.SLDPRT</FileName>
+      <SHA1>42BBDC065122D1E64FB8381A7F04F8B9B2ED41B8</SHA1>
+      <FileSize>249344</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev13\tool.SLDASM</FileName>
+      <SHA1>7419DFAD7F7B3B4C2C680D32464DDBFAD8B127AF</SHA1>
+      <FileSize>2497536</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev13\tool_mock.SLDPRT</FileName>
+      <SHA1>B9E9E88BED3AF96078C2ECB9C24D92C896F3882C</SHA1>
+      <FileSize>634368</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev13\tool_mount_v7.SLDPRT</FileName>
+      <SHA1>EB18BCEAED2FAB3CEB102681664C6ACC0D74DBC0</SHA1>
+      <FileSize>2102784</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev13\tool_mount_v7_with_opti_mount.SLDPRT</FileName>
+      <SHA1>BCE10439DBD7F6CEDF6D108BF8A72E03CBF5A171</SHA1>
+      <FileSize>986624</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev13\tool_rubber_stopper.SLDPRT</FileName>
+      <SHA1>5B96D0336D70D00DF0DFF81B4C9031D61EC86D98</SHA1>
+      <FileSize>202752</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev13\wedge3.SLDPRT</FileName>
+      <SHA1>6AE3D29233744BF030C9EB0DED8C54A6E5551B91</SHA1>
+      <FileSize>321024</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev13\wedge30.SLDPRT</FileName>
+      <SHA1>55159CC794B8C23201C05D0A9CB243F46C0D44CD</SHA1>
+      <FileSize>322048</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+    <GCSCMStandin>
+      <FileName>NavByBending\Rev13\wire_mount.SLDPRT</FileName>
+      <SHA1>42379CFBF292C80349669E7201B97808350344EB</SHA1>
+      <FileSize>752640</FileSize>
+      <ProEVersionedName />
+      <LastUpdated>0001-01-01T00:00:00.0000000+00:00</LastUpdated>
+    </GCSCMStandin>
+  </Standins>
+  <Version>1</Version>
+</GCSCMDirState>
