@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F20CDC2A-0A33-42F7-B751-4F629A9D1876}</ProjectGuid>
+    <RootNamespace>Scripts</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\external\FRILibrary\Windows\pthread;C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\external\FRILibrary\include;C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\external\eigen;C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\external\boost_1_57_0\boost_1_57_0\stage\lib;C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\external\DSPFiltersComplete\shared\DSPFilters\include;C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\external\ATICombinedDAQFT;C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\National Instruments\NI-DAQ\DAQmx ANSI C Dev\lib\msvc;..\..\libs\release;C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\external\boost_1_57_0\boost_1_57_0\stage\lib;C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\libs\release;$(LibraryPath)</LibraryPath>
+    <SourcePath>C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\external\boost_1_57_0\boost_1_57_0\stage\lib;C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\external\eigen\Eigen\src;C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\src\Scripts;$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\external\ATICombinedDAQFT;C:\Program Files %28x86%29\National Instruments\NI-DAQ\DAQmx ANSI C Dev\include;C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\external\boost_1_57_0\boost_1_57_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>ATICombinedDAQFT.lib;NIDAQmx.lib;TypeIRML.lib;DSPFilters.lib;FastResearchLibrary.lib;KUKA.lib;MotionParser.lib;PID.lib;Statistics.lib;pthreadVC.lib;LoadCell.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\Config.h" />
+    <ClInclude Include="..\..\include\Scripts.h" />
+    <ClInclude Include="..\..\include\utils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\execute.cpp" />
+    <ClCompile Include="..\..\src\Scripts\Debugging.cpp" />
+    <ClCompile Include="..\..\src\Scripts\FirstScript.cpp" />
+    <ClCompile Include="..\..\src\Scripts\FollowPath.cpp" />
+    <ClCompile Include="..\..\src\Scripts\FreeMovementPoseLoadRecord.cpp" />
+    <ClCompile Include="..\..\src\Scripts\GravityCompensatedCartesianCollaboration.cpp" />
+    <ClCompile Include="..\..\src\Scripts\NavByBendingForces.cpp" />
+    <ClCompile Include="..\..\src\Scripts\Record.cpp" />
+    <ClCompile Include="..\..\src\Scripts\Replay.cpp" />
+    <ClCompile Include="..\..\src\utils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\external\FRILibrary\Windows\pthread\pthread.vcxproj">
+      <Project>{a443ae05-dacb-4605-a444-7490ca245701}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

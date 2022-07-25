@@ -1,0 +1,11 @@
+﻿Build started 4/27/2018 4:52:49 PM.
+     1>Project "C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\vsprojects\Statistics\Statistics.vcxproj" on node 5 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\Statistics.cpp
+         Statistics.cpp
+     1>c:\users\hmms\documents\github\thesis\kuka lwr\src\statistics.cpp(15): fatal error C1083: Cannot open include file: 'Statistics.h': No such file or directory
+     1>Done Building Project "C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\vsprojects\Statistics\Statistics.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.51

@@ -1,0 +1,691 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 12.00.40629.0 (38f3debb).
+//
+// c:\users\hmms\documents\github\thesis\kuka-lwr\vsprojects\scripts\release\hexapodcom.tli
+//
+// Wrapper implementations for type library C:\Users\HMMS\Documents\Corey\Hexapod\Hexapod Code\bin\x64\HexapodCOM.dll
+// compiler-generated file created 07/20/22 at 11:13:29 - DO NOT EDIT!
+
+#pragma once
+
+//
+// interface IHexapod wrapper method implementations
+//
+
+inline _bstr_t IHexapod::GetAddress ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Address(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IHexapod::PutAddress ( _bstr_t pVal ) {
+    HRESULT _hr = put_Address(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t IHexapod::GetAssemblyName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_AssemblyName(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _bstr_t IHexapod::GetAsyncError ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_AsyncError(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _variant_t IHexapod::GetBaseJointLocation ( ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_BaseJointLocation(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline HRESULT IHexapod::Close ( ) {
+    HRESULT _hr = raw_Close();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IHexapod::Connect ( VARIANT_BOOL Simulate, _bstr_t Address, _bstr_t SerialNumber ) {
+    HRESULT _hr = raw_Connect(Simulate, Address, SerialNumber);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline VARIANT_BOOL IHexapod::GetConnected ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_Connected(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t IHexapod::GetConnectedAddress ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_ConnectedAddress(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _bstr_t IHexapod::GetConnectedSerialNumber ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_ConnectedSerialNumber(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline HRESULT IHexapod::DeleteCS ( _bstr_t Name ) {
+    HRESULT _hr = raw_DeleteCS(Name);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IHexapod::Disconnect ( ) {
+    HRESULT _hr = raw_Disconnect();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline _bstr_t IHexapod::GetErrorString ( long ErrorNumber ) {
+    BSTR _result = 0;
+    HRESULT _hr = raw_GetErrorString(ErrorNumber, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline HRESULT IHexapod::GetMaxMoveDistanceTuple ( enum MHPPosition PositionType, _bstr_t ObjectCS, _bstr_t ReferenceCS, const _variant_t & PositionTuple, VARIANT * NegDistance, VARIANT * PosDistance ) {
+    HRESULT _hr = raw_GetMaxMoveDistanceTuple(PositionType, ObjectCS, ReferenceCS, PositionTuple, NegDistance, PosDistance);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IHexapod::GetMaxMoveDistanceMatrix ( enum MHPPosition PositionType, _bstr_t ObjectCS, _bstr_t ReferenceCS, const _variant_t & PositionMatrix, VARIANT * NegDistance, VARIANT * PosDistance ) {
+    HRESULT _hr = raw_GetMaxMoveDistanceMatrix(PositionType, ObjectCS, ReferenceCS, PositionMatrix, NegDistance, PosDistance);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline double IHexapod::GetMaxMoveOneDirectionTuple ( enum MHPPosition PositionType, _bstr_t ObjectCS, _bstr_t ReferenceCS, const _variant_t & StartPositionTuple, int AxisIndex, int Direction ) {
+    double _result = 0;
+    HRESULT _hr = raw_GetMaxMoveOneDirectionTuple(PositionType, ObjectCS, ReferenceCS, StartPositionTuple, AxisIndex, Direction, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double IHexapod::GetMaxMoveOneDirectionMatrix ( enum MHPPosition PositionType, _bstr_t ObjectCS, _bstr_t ReferenceCS, const _variant_t & StartPositionMatrix, int AxisIndex, int Direction ) {
+    double _result = 0;
+    HRESULT _hr = raw_GetMaxMoveOneDirectionMatrix(PositionType, ObjectCS, ReferenceCS, StartPositionMatrix, AxisIndex, Direction, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IHexapod::GetMinMaxPositionLegs ( VARIANT * MinPosition, VARIANT * MaxPosition ) {
+    HRESULT _hr = raw_GetMinMaxPositionLegs(MinPosition, MaxPosition);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline _variant_t IHexapod::GetPositionLegs ( enum MHPPosition PositionType ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = raw_GetPositionLegs(PositionType, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline _variant_t IHexapod::GetPositionMatrix ( enum MHPPosition PositionType, _bstr_t ObjectCS, _bstr_t ReferenceCS ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = raw_GetPositionMatrix(PositionType, ObjectCS, ReferenceCS, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline _variant_t IHexapod::GetPositionTuple ( enum MHPPosition PositionType, _bstr_t ObjectCS, _bstr_t ReferenceCS ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = raw_GetPositionTuple(PositionType, ObjectCS, ReferenceCS, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline VARIANT_BOOL IHexapod::GetPositionValid ( enum MHPPosition PositionType ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_GetPositionValid(PositionType, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IHexapod::Home ( ) {
+    HRESULT _hr = raw_Home();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline _variant_t IHexapod::GetHomeLegLength ( ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_HomeLegLength(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline VARIANT_BOOL IHexapod::GetHomed ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_Homed(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IHexapod::GetHoming ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_Homing(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IHexapod::GetInLimitSwitch ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_InLimitSwitch(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _variant_t IHexapod::GetLegStepSize ( ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_LegStepSize(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline VARIANT_BOOL IHexapod::GetLoggingEnabled ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_LoggingEnabled(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IHexapod::PutLoggingEnabled ( VARIANT_BOOL pVal ) {
+    HRESULT _hr = put_LoggingEnabled(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t IHexapod::GetLogSeverityLevel ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_LogSeverityLevel(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IHexapod::PutLogSeverityLevel ( _bstr_t pVal ) {
+    HRESULT _hr = put_LogSeverityLevel(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline HRESULT IHexapod::LogText ( _bstr_t SeverityLevel, _bstr_t MessageText ) {
+    HRESULT _hr = raw_LogText(SeverityLevel, MessageText);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IHexapod::MoveLegs ( const _variant_t & LegLength ) {
+    HRESULT _hr = raw_MoveLegs(LegLength);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IHexapod::MoveMatrix ( VARIANT_BOOL Execute, _bstr_t ObjectCS, _bstr_t ReferenceCS, const _variant_t & PositionMatrix ) {
+    HRESULT _hr = raw_MoveMatrix(Execute, ObjectCS, ReferenceCS, PositionMatrix);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IHexapod::MovePosition ( VARIANT_BOOL Execute, _bstr_t PositionName ) {
+    HRESULT _hr = raw_MovePosition(Execute, PositionName);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IHexapod::MoveTuple ( VARIANT_BOOL Execute, _bstr_t ObjectCS, _bstr_t ReferenceCS, const _variant_t & PositionTuple ) {
+    HRESULT _hr = raw_MoveTuple(Execute, ObjectCS, ReferenceCS, PositionTuple);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline VARIANT_BOOL IHexapod::GetMoving ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_Moving(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IHexapod::Open ( _bstr_t DeviceName ) {
+    HRESULT _hr = raw_Open(DeviceName);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline _variant_t IHexapod::GetPlatformJointLocation ( ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_PlatformJointLocation(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline HRESULT IHexapod::GetPlatformLimits ( VARIANT * NegLimitVariant, VARIANT * PosLimitVariant ) {
+    HRESULT _hr = raw_GetPlatformLimits(NegLimitVariant, PosLimitVariant);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline double IHexapod::GetReadCacheTime ( ) {
+    double _result = 0;
+    HRESULT _hr = get_ReadCacheTime(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IHexapod::PutReadCacheTime ( double pVal ) {
+    HRESULT _hr = put_ReadCacheTime(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline HRESULT IHexapod::Rotate ( VARIANT_BOOL Execute, _bstr_t ObjectCS, _bstr_t ReferenceCS, double Rx, double Ry, double Rz ) {
+    HRESULT _hr = raw_Rotate(Execute, ObjectCS, ReferenceCS, Rx, Ry, Rz);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline _bstr_t IHexapod::GetSerialNumber ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_SerialNumber(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IHexapod::PutSerialNumber ( _bstr_t pVal ) {
+    HRESULT _hr = put_SerialNumber(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL IHexapod::GetSimulateMotionVelocity ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_SimulateMotionVelocity(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IHexapod::PutSimulateMotionVelocity ( VARIANT_BOOL pVal ) {
+    HRESULT _hr = put_SimulateMotionVelocity(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL IHexapod::GetSimulated ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_Simulated(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IHexapod::Stop ( ) {
+    HRESULT _hr = raw_Stop();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IHexapod::Translate ( VARIANT_BOOL Execute, _bstr_t ObjectCS, _bstr_t ReferenceCS, double X, double Y, double Z ) {
+    HRESULT _hr = raw_Translate(Execute, ObjectCS, ReferenceCS, X, Y, Z);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline _bstr_t IHexapod::GetVersion ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Version(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline HRESULT IHexapod::CreateCS ( _bstr_t Name, _bstr_t ReferenceName ) {
+    HRESULT _hr = raw_CreateCS(Name, ReferenceName);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline long IHexapod::GetCSCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_CSCount(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t IHexapod::GetCSDescription ( _bstr_t Name ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_CSDescription(Name, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IHexapod::PutCSDescription ( _bstr_t Name, _bstr_t pVal ) {
+    HRESULT _hr = put_CSDescription(Name, pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL IHexapod::GetCSExists ( _bstr_t CSName ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_CSExists(CSName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IHexapod::GetCSMovable ( _bstr_t CSName ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_CSMovable(CSName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t IHexapod::GetCSName ( long CSNumber ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_CSName(CSNumber, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline VARIANT_BOOL IHexapod::GetCSReadOnly ( _bstr_t CSName ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_CSReadOnly(CSName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t IHexapod::GetCSReference ( _bstr_t CSName ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_CSReference(CSName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline HRESULT IHexapod::RenameCS ( _bstr_t OldName, _bstr_t NewName ) {
+    HRESULT _hr = raw_RenameCS(OldName, NewName);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline _variant_t IHexapod::GetCSTransformMatrix ( _bstr_t Name ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_CSTransformMatrix(Name, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline _variant_t IHexapod::GetCSTransformTuple ( _bstr_t Name ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_CSTransformTuple(Name, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline HRESULT IHexapod::SetCSTransformMatrix ( _bstr_t Name, _bstr_t ReferenceName, const _variant_t & Matrix ) {
+    HRESULT _hr = raw_SetCSTransformMatrix(Name, ReferenceName, Matrix);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IHexapod::SetCSTransformTuple ( _bstr_t Name, _bstr_t ReferenceName, const _variant_t & Tuple ) {
+    HRESULT _hr = raw_SetCSTransformTuple(Name, ReferenceName, Tuple);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IHexapod::CreatePosition ( _bstr_t Name ) {
+    HRESULT _hr = raw_CreatePosition(Name);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IHexapod::DeletePosition ( _bstr_t Name ) {
+    HRESULT _hr = raw_DeletePosition(Name);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline long IHexapod::GetPositionCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_PositionCount(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t IHexapod::GetPositionDescription ( _bstr_t Name ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_PositionDescription(Name, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IHexapod::PutPositionDescription ( _bstr_t Name, _bstr_t pVal ) {
+    HRESULT _hr = put_PositionDescription(Name, pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL IHexapod::GetPositionExists ( _bstr_t PositionName ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_PositionExists(PositionName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t IHexapod::GetPositionName ( long PositionNumber ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_PositionName(PositionNumber, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _bstr_t IHexapod::GetPositionObject ( _bstr_t PositionName ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_PositionObject(PositionName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _bstr_t IHexapod::GetPositionReference ( _bstr_t PositionName ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_PositionReference(PositionName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline HRESULT IHexapod::RenamePosition ( _bstr_t OldName, _bstr_t NewName ) {
+    HRESULT _hr = raw_RenamePosition(OldName, NewName);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline _variant_t IHexapod::GetPositionTransformMatrix ( _bstr_t Name ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_PositionTransformMatrix(Name, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline _variant_t IHexapod::GetPositionTransformTuple ( _bstr_t Name ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_PositionTransformTuple(Name, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline HRESULT IHexapod::SetPositionTransformMatrix ( _bstr_t Name, _bstr_t ObjectName, _bstr_t ReferenceName, const _variant_t & Matrix ) {
+    HRESULT _hr = raw_SetPositionTransformMatrix(Name, ObjectName, ReferenceName, Matrix);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IHexapod::SetPositionTransformTuple ( _bstr_t Name, _bstr_t ObjectName, _bstr_t ReferenceName, const _variant_t & Tuple ) {
+    HRESULT _hr = raw_SetPositionTransformTuple(Name, ObjectName, ReferenceName, Tuple);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IHexapod::CreateLimit ( _bstr_t Name ) {
+    HRESULT _hr = raw_CreateLimit(Name);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IHexapod::DeleteLimit ( _bstr_t Name ) {
+    HRESULT _hr = raw_DeleteLimit(Name);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline long IHexapod::GetLimitCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_LimitCount(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t IHexapod::GetLimitDescription ( _bstr_t Name ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_LimitDescription(Name, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IHexapod::PutLimitDescription ( _bstr_t Name, _bstr_t pVal ) {
+    HRESULT _hr = put_LimitDescription(Name, pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL IHexapod::GetLimitExists ( _bstr_t LimitName ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_LimitExists(LimitName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t IHexapod::GetLimitName ( long LimitNumber ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_LimitName(LimitNumber, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _bstr_t IHexapod::GetLimitObject ( _bstr_t LimitName ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_LimitObject(LimitName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _bstr_t IHexapod::GetLimitReference ( _bstr_t LimitName ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_LimitReference(LimitName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _variant_t IHexapod::GetNegLimit ( _bstr_t Name ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_NegLimit(Name, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline _variant_t IHexapod::GetPosLimit ( _bstr_t Name ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_PosLimit(Name, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline HRESULT IHexapod::RenameLimit ( _bstr_t OldName, _bstr_t NewName ) {
+    HRESULT _hr = raw_RenameLimit(OldName, NewName);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IHexapod::SetLimit ( _bstr_t Name, _bstr_t ObjectName, _bstr_t ReferenceName, const _variant_t & NegLimit, const _variant_t & PosLimit ) {
+    HRESULT _hr = raw_SetLimit(Name, ObjectName, ReferenceName, NegLimit, PosLimit);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline long IHexapod::FindDevices ( ) {
+    long _result = 0;
+    HRESULT _hr = raw_FindDevices(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t IHexapod::GetDeviceAddress ( long index ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_DeviceAddress(index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _bstr_t IHexapod::GetDeviceSerialNumber ( long index ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_DeviceSerialNumber(index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline enum MHPPortStatus IHexapod::GetDeviceStatus ( long index ) {
+    enum MHPPortStatus _result;
+    HRESULT _hr = get_DeviceStatus(index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double IHexapod::GetVelocity ( ) {
+    double _result = 0;
+    HRESULT _hr = get_Velocity(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IHexapod::PutVelocity ( double pVal ) {
+    HRESULT _hr = put_Velocity(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _variant_t IHexapod::GetHomeChange ( ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_HomeChange(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline _variant_t IHexapod::GetPlatformVelocityTuple ( ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_PlatformVelocityTuple(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline _variant_t IHexapod::GetPlatformStepSizeTuple ( ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_PlatformStepSizeTuple(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}

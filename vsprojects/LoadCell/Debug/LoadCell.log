@@ -1,0 +1,11 @@
+﻿Build started 6/13/2016 1:45:24 PM.
+     1>Project "C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\vsprojects\LoadCell\LoadCell.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\external\DSPFiltersComplete\shared\DSPFilters\include\DspFilters" /I"C:\Program Files (x86)\National Instruments\NI-DAQ\DAQmx ANSI C Dev\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\Nano25E.cpp
+         Nano25E.cpp
+     1>c:\users\hmms\documents\github\thesis\kuka lwr\include\nano25e.h(25): fatal error C1083: Cannot open include file: 'DspFilters/Dsp.h': No such file or directory
+     1>Done Building Project "C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\vsprojects\LoadCell\LoadCell.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.29

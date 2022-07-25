@@ -1,0 +1,39 @@
+﻿Build started 6/15/2016 11:52:25 AM.
+     1>Project "C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\vsprojects\KUKA\KUKA.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\vsprojects\x64\Release\KUKA.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\external\boost_1_57_0\boost_1_57_0\stage\lib LoadCell.lib ATICombinedDAQFT.lib pthreadVC.lib TypeIRML.lib FastResearchLibrary.lib pthreadVC.lib NIDAQmx.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\vsprojects\x64\Release\KUKA.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\vsprojects\x64\Release\KUKA.lib" /MACHINE:X64 /ignore:4099 x64\Release\LWR.obj
+     1>LWR.obj : error LNK2001: unresolved external symbol "public: double __cdecl PID::compute(void)" (?compute@PID@@QEAANXZ)
+     1>LWR.obj : error LNK2001: unresolved external symbol "public: void __cdecl PID::setProcessValue(double)" (?setProcessValue@PID@@QEAAXN@Z)
+     1>LWR.obj : error LNK2001: unresolved external symbol "public: void __cdecl PID::setSetPoint(double)" (?setSetPoint@PID@@QEAAXN@Z)
+     1>LWR.obj : error LNK2001: unresolved external symbol "public: void __cdecl PID::setOutputLimits(double,double)" (?setOutputLimits@PID@@QEAAXNN@Z)
+     1>LWR.obj : error LNK2001: unresolved external symbol "public: __cdecl PID::PID(double,double,double,double)" (??0PID@@QEAA@NNNN@Z)
+     1>LWR.obj : error LNK2001: unresolved external symbol "public: int __cdecl TypeIRML::GetNextMotionState_Position(class TypeIRMLMath::TypeIRMLInputParameters const &,class TypeIRMLMath::TypeIRMLOutputParameters *)" (?GetNextMotionState_Position@TypeIRML@@QEAAHAEBVTypeIRMLInputParameters@TypeIRMLMath@@PEAVTypeIRMLOutputParameters@3@@Z)
+     1>LWR.obj : error LNK2001: unresolved external symbol "public: __cdecl TypeIRML::~TypeIRML(void)" (??1TypeIRML@@QEAA@XZ)
+     1>LWR.obj : error LNK2001: unresolved external symbol "public: __cdecl TypeIRML::TypeIRML(unsigned int const &,double const &)" (??0TypeIRML@@QEAA@AEBIAEBN@Z)
+     1>LWR.obj : error LNK2001: unresolved external symbol "public: char const * __cdecl FastResearchInterface::GetCompleteRobotStateAndInformation(void)" (?GetCompleteRobotStateAndInformation@FastResearchInterface@@QEAAPEBDXZ)
+     1>LWR.obj : error LNK2001: unresolved external symbol "public: bool __cdecl FastResearchInterface::IsMachineOK(void)" (?IsMachineOK@FastResearchInterface@@QEAA_NXZ)
+     1>LWR.obj : error LNK2001: unresolved external symbol "public: int __cdecl FastResearchInterface::WaitForKRCTick(unsigned int const &)" (?WaitForKRCTick@FastResearchInterface@@QEAAHAEBI@Z)
+     1>LWR.obj : error LNK2001: unresolved external symbol "public: float __cdecl FastResearchInterface::GetFRICycleTime(void)" (?GetFRICycleTime@FastResearchInterface@@QEAAMXZ)
+     1>LWR.obj : error LNK2001: unresolved external symbol "public: unsigned int __cdecl FastResearchInterface::GetCurrentControlScheme(void)" (?GetCurrentControlScheme@FastResearchInterface@@QEAAIXZ)
+     1>LWR.obj : error LNK2001: unresolved external symbol "public: void __cdecl FastResearchInterface::SetCommandedCartDamping(float const *)" (?SetCommandedCartDamping@FastResearchInterface@@QEAAXPEBM@Z)
+     1>LWR.obj : error LNK2001: unresolved external symbol "public: void __cdecl FastResearchInterface::SetCommandedCartStiffness(float const *)" (?SetCommandedCartStiffness@FastResearchInterface@@QEAAXPEBM@Z)
+     1>LWR.obj : error LNK2001: unresolved external symbol "public: void __cdecl FastResearchInterface::SetCommandedCartForcesAndTorques(float const *)" (?SetCommandedCartForcesAndTorques@FastResearchInterface@@QEAAXPEBM@Z)
+     1>LWR.obj : error LNK2001: unresolved external symbol "public: void __cdecl FastResearchInterface::SetCommandedCartPose(float const *)" (?SetCommandedCartPose@FastResearchInterface@@QEAAXPEBM@Z)
+     1>LWR.obj : error LNK2001: unresolved external symbol "public: void __cdecl FastResearchInterface::SetCommandedJointDamping(float const *)" (?SetCommandedJointDamping@FastResearchInterface@@QEAAXPEBM@Z)
+     1>LWR.obj : error LNK2001: unresolved external symbol "public: void __cdecl FastResearchInterface::SetCommandedJointStiffness(float const *)" (?SetCommandedJointStiffness@FastResearchInterface@@QEAAXPEBM@Z)
+     1>LWR.obj : error LNK2001: unresolved external symbol "public: void __cdecl FastResearchInterface::SetCommandedJointTorques(float const *)" (?SetCommandedJointTorques@FastResearchInterface@@QEAAXPEBM@Z)
+     1>LWR.obj : error LNK2001: unresolved external symbol "public: void __cdecl FastResearchInterface::SetCommandedJointPositions(float const *)" (?SetCommandedJointPositions@FastResearchInterface@@QEAAXPEBM@Z)
+     1>LWR.obj : error LNK2001: unresolved external symbol "public: void __cdecl FastResearchInterface::GetEstimatedExternalCartForcesAndTorques(float *)" (?GetEstimatedExternalCartForcesAndTorques@FastResearchInterface@@QEAAXPEAM@Z)
+     1>LWR.obj : error LNK2001: unresolved external symbol "public: void __cdecl FastResearchInterface::GetMeasuredCartPose(float *)" (?GetMeasuredCartPose@FastResearchInterface@@QEAAXPEAM@Z)
+     1>LWR.obj : error LNK2001: unresolved external symbol "public: void __cdecl FastResearchInterface::GetMeasuredJointPositions(float *)" (?GetMeasuredJointPositions@FastResearchInterface@@QEAAXPEAM@Z)
+     1>LWR.obj : error LNK2001: unresolved external symbol "public: int __cdecl FastResearchInterface::StopRobot(void)" (?StopRobot@FastResearchInterface@@QEAAHXZ)
+     1>LWR.obj : error LNK2001: unresolved external symbol "public: int __cdecl FastResearchInterface::StartRobot(unsigned int const &,float const &)" (?StartRobot@FastResearchInterface@@QEAAHAEBIAEBM@Z)
+     1>LWR.obj : error LNK2001: unresolved external symbol "public: __cdecl FastResearchInterface::~FastResearchInterface(void)" (??1FastResearchInterface@@QEAA@XZ)
+     1>LWR.obj : error LNK2001: unresolved external symbol "public: __cdecl FastResearchInterface::FastResearchInterface(char const *)" (??0FastResearchInterface@@QEAA@PEBD@Z)
+     1>MSVCRT.lib(crtexe.obj) : error LNK2001: unresolved external symbol main
+     1>C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\vsprojects\x64\Release\KUKA.exe : fatal error LNK1120: 29 unresolved externals
+     1>Done Building Project "C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\vsprojects\KUKA\KUKA.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.21

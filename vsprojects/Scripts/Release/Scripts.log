@@ -1,0 +1,97 @@
+﻿Build started 7/21/2022 2:12:37 PM.
+     1>Project "C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\vsprojects\Scripts\Scripts.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\external\ATICombinedDAQFT" /I"C:\Program Files (x86)\National Instruments\NI-DAQ\DAQmx ANSI C Dev\include" /I"C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\external\boost_1_57_0\boost_1_57_0" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\execute.cpp
+         execute.cpp
+     1>..\..\src\execute.cpp(900): warning C4101: 'ex' : unreferenced local variable
+     1>..\..\src\execute.cpp(926): warning C4101: 'ex' : unreferenced local variable
+     1>..\..\src\execute.cpp(946): warning C4101: 'ex' : unreferenced local variable
+     1>..\..\src\execute.cpp(961): warning C4101: 'ex' : unreferenced local variable
+     1>..\..\src\execute.cpp(1037): warning C4101: 'ex' : unreferenced local variable
+     1>..\..\src\execute.cpp(1327): warning C4101: 'ex' : unreferenced local variable
+     1>..\..\src\execute.cpp(1528): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\src\execute.cpp(1536): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\src\execute.cpp(1599): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>..\..\src\execute.cpp(1600): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>..\..\src\execute.cpp(1601): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>..\..\src\execute.cpp(1602): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>..\..\src\execute.cpp(1741): warning C4244: 'initializing' : conversion from '__int64' to 'float', possible loss of data
+     1>..\..\src\execute.cpp(1751): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\src\execute.cpp(1823): warning C4244: 'initializing' : conversion from '__int64' to 'float', possible loss of data
+     1>..\..\src\execute.cpp(1746): warning C4101: 'ex' : unreferenced local variable
+     1>..\..\src\execute.cpp(2031): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>..\..\src\execute.cpp(2032): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>..\..\src\execute.cpp(2033): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>..\..\src\execute.cpp(2239): warning C4101: 'ex' : unreferenced local variable
+     1>..\..\src\execute.cpp(2305): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>..\..\src\execute.cpp(2306): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>..\..\src\execute.cpp(2307): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>..\..\src\execute.cpp(2363): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\src\execute.cpp(2424): warning C4101: 'ex' : unreferenced local variable
+     1>..\..\src\execute.cpp(2554): warning C4244: 'initializing' : conversion from '__int64' to 'float', possible loss of data
+     1>..\..\src\execute.cpp(2641): warning C4244: 'initializing' : conversion from '__int64' to 'float', possible loss of data
+     1>..\..\src\execute.cpp(2666): warning C4101: 'ex' : unreferenced local variable
+     1>..\..\src\execute.cpp(2900): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>..\..\src\execute.cpp(2901): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>..\..\src\execute.cpp(2902): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>..\..\src\execute.cpp(2956): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\src\execute.cpp(2966): warning C4244: 'initializing' : conversion from '__int64' to 'float', possible loss of data
+     1>..\..\src\execute.cpp(2974): warning C4244: '=' : conversion from '__int64' to 'float', possible loss of data
+     1>..\..\src\execute.cpp(2983): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\src\execute.cpp(2996): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\src\execute.cpp(3001): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\src\execute.cpp(3023): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>..\..\src\execute.cpp(3024): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>..\..\src\execute.cpp(3025): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>..\..\src\execute.cpp(3026): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>..\..\src\execute.cpp(3118): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\src\execute.cpp(3180): warning C4244: '=' : conversion from '__int64' to 'double', possible loss of data
+     1>..\..\src\execute.cpp(3113): warning C4101: 'ex' : unreferenced local variable
+     1>..\..\src\execute.cpp(3732): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>..\..\src\execute.cpp(3733): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>..\..\src\execute.cpp(3734): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>..\..\src\execute.cpp(3847): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\src\execute.cpp(3857): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\src\execute.cpp(3862): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\src\execute.cpp(3900): warning C4101: 'ex' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\vsprojects\Release\Scripts.exe" /NOLOGO ATICombinedDAQFT.lib NIDAQmx.lib TypeIRML.lib DSPFilters.lib FastResearchLibrary.lib KUKA.lib MotionParser.lib PID.lib Statistics.lib pthreadVC.lib LoadCell.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\vsprojects\Release\Scripts.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\vsprojects\Release\Scripts.lib" /MACHINE:X86 /SAFESEH Release\execute.obj
+         Release\Debugging.obj
+         Release\FirstScript.obj
+         Release\FollowPath.obj
+         Release\FreeMovementPoseLoadRecord.obj
+         Release\GravityCompensatedCartesianCollaboration.obj
+         Release\NavByBendingForces.obj
+         Release\Record.obj
+         Release\Replay.obj
+         Release\utils.obj
+         "C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\external\FRILibrary\Windows\pthread\release\pthreadVC.lib"
+         Generating code
+         Finished generating code
+     1>KUKA.lib(LWR.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'KUKA.lib(LWR.obj)' or at 'C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\vsprojects\Release\vc120.pdb'; linking object as if no debug info
+     1>MotionParser.lib(MotionParser.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'MotionParser.lib(MotionParser.obj)' or at 'C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\vsprojects\Release\vc120.pdb'; linking object as if no debug info
+     1>LoadCell.lib(Nano25E.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'LoadCell.lib(Nano25E.obj)' or at 'C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\vsprojects\Release\vc120.pdb'; linking object as if no debug info
+     1>TypeIRML.lib(TypeIRML.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'TypeIRML.lib(TypeIRML.obj)' or at 'C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\vsprojects\Release\vc120.pdb'; linking object as if no debug info
+     1>TypeIRML.lib(TypeIRMLProfiles.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'TypeIRML.lib(TypeIRMLProfiles.obj)' or at 'C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\vsprojects\Release\vc120.pdb'; linking object as if no debug info
+     1>TypeIRML.lib(TypeIRMLDecision.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'TypeIRML.lib(TypeIRMLDecision.obj)' or at 'C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\vsprojects\Release\vc120.pdb'; linking object as if no debug info
+     1>TypeIRML.lib(TypeIRMLPolynomial.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'TypeIRML.lib(TypeIRMLPolynomial.obj)' or at 'C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\vsprojects\Release\vc120.pdb'; linking object as if no debug info
+     1>TypeIRML.lib(TypeIRMLMath.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'TypeIRML.lib(TypeIRMLMath.obj)' or at 'C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\vsprojects\Release\vc120.pdb'; linking object as if no debug info
+     1>ATICombinedDAQFT.lib(dom.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ATICombinedDAQFT.lib(dom.obj)' or at 'C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\vsprojects\Release\vc120.pdb'; linking object as if no debug info
+     1>ATICombinedDAQFT.lib(expatls.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ATICombinedDAQFT.lib(expatls.obj)' or at 'C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\vsprojects\Release\vc120.pdb'; linking object as if no debug info
+     1>ATICombinedDAQFT.lib(ftconfig.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ATICombinedDAQFT.lib(ftconfig.obj)' or at 'C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\vsprojects\Release\vc120.pdb'; linking object as if no debug info
+     1>ATICombinedDAQFT.lib(ftrt.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ATICombinedDAQFT.lib(ftrt.obj)' or at 'C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\vsprojects\Release\vc120.pdb'; linking object as if no debug info
+     1>ATICombinedDAQFT.lib(node.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ATICombinedDAQFT.lib(node.obj)' or at 'C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\vsprojects\Release\vc120.pdb'; linking object as if no debug info
+     1>ATICombinedDAQFT.lib(stack.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ATICombinedDAQFT.lib(stack.obj)' or at 'C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\vsprojects\Release\vc120.pdb'; linking object as if no debug info
+     1>ATICombinedDAQFT.lib(xmlparse.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ATICombinedDAQFT.lib(xmlparse.obj)' or at 'C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\vsprojects\Release\vc120.pdb'; linking object as if no debug info
+     1>ATICombinedDAQFT.lib(xmlrole.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ATICombinedDAQFT.lib(xmlrole.obj)' or at 'C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\vsprojects\Release\vc120.pdb'; linking object as if no debug info
+     1>ATICombinedDAQFT.lib(xmltok.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'ATICombinedDAQFT.lib(xmltok.obj)' or at 'C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\vsprojects\Release\vc120.pdb'; linking object as if no debug info
+     1>LoadCell.lib(PoleFilter.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'LoadCell.lib(PoleFilter.obj)' or at 'C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\vsprojects\Release\vc120.pdb'; linking object as if no debug info
+     1>LoadCell.lib(Cascade.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'LoadCell.lib(Cascade.obj)' or at 'C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\vsprojects\Release\vc120.pdb'; linking object as if no debug info
+     1>LoadCell.lib(Butterworth.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'LoadCell.lib(Butterworth.obj)' or at 'C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\vsprojects\Release\vc120.pdb'; linking object as if no debug info
+     1>LoadCell.lib(Biquad.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'LoadCell.lib(Biquad.obj)' or at 'C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\vsprojects\Release\vc120.pdb'; linking object as if no debug info
+         Scripts.vcxproj -> C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\vsprojects\Release\Scripts.exe
+     1>Done Building Project "C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\vsprojects\Scripts\Scripts.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:20.08

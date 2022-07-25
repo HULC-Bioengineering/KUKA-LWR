@@ -1,0 +1,735 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 12.00.40629.0 (38f3debb).
+//
+// c:\users\hmms\documents\github\thesis\kuka-lwr\vsprojects\scripts\release\hexapodcom.tlh
+//
+// C++ source equivalent of type library C:\Users\HMMS\Documents\Corey\Hexapod\Hexapod Code\bin\x64\HexapodCOM.dll
+// compiler-generated file created 07/20/22 at 11:13:29 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+namespace HexapodCOMLib {
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("13027b33-5222-4a9c-8b62-503639f4933e"))
+/* LIBID */ __HexapodCOMLib;
+struct /* coclass */ Hexapod;
+struct __declspec(uuid("b379c6a9-0dac-4b20-a2c3-e1de1a08d6ef"))
+/* dual interface */ IHexapod;
+enum MHPPosition;
+enum MHPPortStatus;
+enum MHPConstant;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(IHexapod, __uuidof(IHexapod));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("085fb5d6-235c-46e7-8e70-0b6c57e6b53c"))
+Hexapod;
+    // [ default ] interface IHexapod
+
+enum MHPPosition
+{
+    PositionActual = 0,
+    PositionCommanded = 1,
+    PositionExecuted = 2,
+    PositionVirtual = 3
+};
+
+enum MHPPortStatus
+{
+    PortStatusConnected = 0,
+    PortStatusAvailable = 1,
+    PortStatusBusy = 2,
+    PortStatusNoResponse = 3
+};
+
+struct __declspec(uuid("b379c6a9-0dac-4b20-a2c3-e1de1a08d6ef"))
+IHexapod : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetPosLimit))
+    _variant_t PosLimit[];
+    __declspec(property(get=GetAddress,put=PutAddress))
+    _bstr_t Address;
+    __declspec(property(get=GetAssemblyName))
+    _bstr_t AssemblyName;
+    __declspec(property(get=GetAsyncError))
+    _bstr_t AsyncError;
+    __declspec(property(get=GetBaseJointLocation))
+    _variant_t BaseJointLocation;
+    __declspec(property(get=GetDeviceAddress))
+    _bstr_t DeviceAddress[];
+    __declspec(property(get=GetDeviceSerialNumber))
+    _bstr_t DeviceSerialNumber[];
+    __declspec(property(get=GetConnected))
+    VARIANT_BOOL Connected;
+    __declspec(property(get=GetConnectedAddress))
+    _bstr_t ConnectedAddress;
+    __declspec(property(get=GetConnectedSerialNumber))
+    _bstr_t ConnectedSerialNumber;
+    __declspec(property(get=GetDeviceStatus))
+    enum MHPPortStatus DeviceStatus[];
+    __declspec(property(get=GetVelocity,put=PutVelocity))
+    double Velocity;
+    __declspec(property(get=GetHomeChange))
+    _variant_t HomeChange;
+    __declspec(property(get=GetPlatformVelocityTuple))
+    _variant_t PlatformVelocityTuple;
+    __declspec(property(get=GetPlatformStepSizeTuple))
+    _variant_t PlatformStepSizeTuple;
+    __declspec(property(get=GetHomeLegLength))
+    _variant_t HomeLegLength;
+    __declspec(property(get=GetHomed))
+    VARIANT_BOOL Homed;
+    __declspec(property(get=GetHoming))
+    VARIANT_BOOL Homing;
+    __declspec(property(get=GetInLimitSwitch))
+    VARIANT_BOOL InLimitSwitch;
+    __declspec(property(get=GetLegStepSize))
+    _variant_t LegStepSize;
+    __declspec(property(get=GetLoggingEnabled,put=PutLoggingEnabled))
+    VARIANT_BOOL LoggingEnabled;
+    __declspec(property(get=GetLogSeverityLevel,put=PutLogSeverityLevel))
+    _bstr_t LogSeverityLevel;
+    __declspec(property(get=GetMoving))
+    VARIANT_BOOL Moving;
+    __declspec(property(get=GetPlatformJointLocation))
+    _variant_t PlatformJointLocation;
+    __declspec(property(get=GetReadCacheTime,put=PutReadCacheTime))
+    double ReadCacheTime;
+    __declspec(property(get=GetSerialNumber,put=PutSerialNumber))
+    _bstr_t SerialNumber;
+    __declspec(property(get=GetSimulateMotionVelocity,put=PutSimulateMotionVelocity))
+    VARIANT_BOOL SimulateMotionVelocity;
+    __declspec(property(get=GetSimulated))
+    VARIANT_BOOL Simulated;
+    __declspec(property(get=GetVersion))
+    _bstr_t Version;
+    __declspec(property(get=GetCSCount))
+    long CSCount;
+    __declspec(property(get=GetCSDescription,put=PutCSDescription))
+    _bstr_t CSDescription[];
+    __declspec(property(get=GetCSExists))
+    VARIANT_BOOL CSExists[];
+    __declspec(property(get=GetCSMovable))
+    VARIANT_BOOL CSMovable[];
+    __declspec(property(get=GetCSName))
+    _bstr_t CSName[];
+    __declspec(property(get=GetCSReadOnly))
+    VARIANT_BOOL CSReadOnly[];
+    __declspec(property(get=GetCSReference))
+    _bstr_t CSReference[];
+    __declspec(property(get=GetCSTransformMatrix))
+    _variant_t CSTransformMatrix[];
+    __declspec(property(get=GetCSTransformTuple))
+    _variant_t CSTransformTuple[];
+    __declspec(property(get=GetPositionCount))
+    long PositionCount;
+    __declspec(property(get=GetPositionDescription,put=PutPositionDescription))
+    _bstr_t PositionDescription[];
+    __declspec(property(get=GetPositionExists))
+    VARIANT_BOOL PositionExists[];
+    __declspec(property(get=GetPositionName))
+    _bstr_t PositionName[];
+    __declspec(property(get=GetPositionObject))
+    _bstr_t PositionObject[];
+    __declspec(property(get=GetPositionReference))
+    _bstr_t PositionReference[];
+    __declspec(property(get=GetPositionTransformMatrix))
+    _variant_t PositionTransformMatrix[];
+    __declspec(property(get=GetPositionTransformTuple))
+    _variant_t PositionTransformTuple[];
+    __declspec(property(get=GetLimitCount))
+    long LimitCount;
+    __declspec(property(get=GetLimitDescription,put=PutLimitDescription))
+    _bstr_t LimitDescription[];
+    __declspec(property(get=GetLimitExists))
+    VARIANT_BOOL LimitExists[];
+    __declspec(property(get=GetLimitName))
+    _bstr_t LimitName[];
+    __declspec(property(get=GetLimitObject))
+    _bstr_t LimitObject[];
+    __declspec(property(get=GetLimitReference))
+    _bstr_t LimitReference[];
+    __declspec(property(get=GetNegLimit))
+    _variant_t NegLimit[];
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    _bstr_t GetAddress ( );
+    void PutAddress (
+        _bstr_t pVal );
+    _bstr_t GetAssemblyName ( );
+    _bstr_t GetAsyncError ( );
+    _variant_t GetBaseJointLocation ( );
+    HRESULT Close ( );
+    HRESULT Connect (
+        VARIANT_BOOL Simulate,
+        _bstr_t Address,
+        _bstr_t SerialNumber );
+    VARIANT_BOOL GetConnected ( );
+    _bstr_t GetConnectedAddress ( );
+    _bstr_t GetConnectedSerialNumber ( );
+    HRESULT DeleteCS (
+        _bstr_t Name );
+    HRESULT Disconnect ( );
+    _bstr_t GetErrorString (
+        long ErrorNumber );
+    HRESULT GetMaxMoveDistanceTuple (
+        enum MHPPosition PositionType,
+        _bstr_t ObjectCS,
+        _bstr_t ReferenceCS,
+        const _variant_t & PositionTuple,
+        VARIANT * NegDistance,
+        VARIANT * PosDistance );
+    HRESULT GetMaxMoveDistanceMatrix (
+        enum MHPPosition PositionType,
+        _bstr_t ObjectCS,
+        _bstr_t ReferenceCS,
+        const _variant_t & PositionMatrix,
+        VARIANT * NegDistance,
+        VARIANT * PosDistance );
+    double GetMaxMoveOneDirectionTuple (
+        enum MHPPosition PositionType,
+        _bstr_t ObjectCS,
+        _bstr_t ReferenceCS,
+        const _variant_t & StartPositionTuple,
+        int AxisIndex,
+        int Direction );
+    double GetMaxMoveOneDirectionMatrix (
+        enum MHPPosition PositionType,
+        _bstr_t ObjectCS,
+        _bstr_t ReferenceCS,
+        const _variant_t & StartPositionMatrix,
+        int AxisIndex,
+        int Direction );
+    HRESULT GetMinMaxPositionLegs (
+        VARIANT * MinPosition,
+        VARIANT * MaxPosition );
+    _variant_t GetPositionLegs (
+        enum MHPPosition PositionType );
+    _variant_t GetPositionMatrix (
+        enum MHPPosition PositionType,
+        _bstr_t ObjectCS,
+        _bstr_t ReferenceCS );
+    _variant_t GetPositionTuple (
+        enum MHPPosition PositionType,
+        _bstr_t ObjectCS,
+        _bstr_t ReferenceCS );
+    VARIANT_BOOL GetPositionValid (
+        enum MHPPosition PositionType );
+    HRESULT Home ( );
+    _variant_t GetHomeLegLength ( );
+    VARIANT_BOOL GetHomed ( );
+    VARIANT_BOOL GetHoming ( );
+    VARIANT_BOOL GetInLimitSwitch ( );
+    _variant_t GetLegStepSize ( );
+    VARIANT_BOOL GetLoggingEnabled ( );
+    void PutLoggingEnabled (
+        VARIANT_BOOL pVal );
+    _bstr_t GetLogSeverityLevel ( );
+    void PutLogSeverityLevel (
+        _bstr_t pVal );
+    HRESULT LogText (
+        _bstr_t SeverityLevel,
+        _bstr_t MessageText );
+    HRESULT MoveLegs (
+        const _variant_t & LegLength );
+    HRESULT MoveMatrix (
+        VARIANT_BOOL Execute,
+        _bstr_t ObjectCS,
+        _bstr_t ReferenceCS,
+        const _variant_t & PositionMatrix );
+    HRESULT MovePosition (
+        VARIANT_BOOL Execute,
+        _bstr_t PositionName );
+    HRESULT MoveTuple (
+        VARIANT_BOOL Execute,
+        _bstr_t ObjectCS,
+        _bstr_t ReferenceCS,
+        const _variant_t & PositionTuple );
+    VARIANT_BOOL GetMoving ( );
+    HRESULT Open (
+        _bstr_t DeviceName );
+    _variant_t GetPlatformJointLocation ( );
+    HRESULT GetPlatformLimits (
+        VARIANT * NegLimitVariant,
+        VARIANT * PosLimitVariant );
+    double GetReadCacheTime ( );
+    void PutReadCacheTime (
+        double pVal );
+    HRESULT Rotate (
+        VARIANT_BOOL Execute,
+        _bstr_t ObjectCS,
+        _bstr_t ReferenceCS,
+        double Rx,
+        double Ry,
+        double Rz );
+    _bstr_t GetSerialNumber ( );
+    void PutSerialNumber (
+        _bstr_t pVal );
+    VARIANT_BOOL GetSimulateMotionVelocity ( );
+    void PutSimulateMotionVelocity (
+        VARIANT_BOOL pVal );
+    VARIANT_BOOL GetSimulated ( );
+    HRESULT Stop ( );
+    HRESULT Translate (
+        VARIANT_BOOL Execute,
+        _bstr_t ObjectCS,
+        _bstr_t ReferenceCS,
+        double X,
+        double Y,
+        double Z );
+    _bstr_t GetVersion ( );
+    HRESULT CreateCS (
+        _bstr_t Name,
+        _bstr_t ReferenceName );
+    long GetCSCount ( );
+    _bstr_t GetCSDescription (
+        _bstr_t Name );
+    void PutCSDescription (
+        _bstr_t Name,
+        _bstr_t pVal );
+    VARIANT_BOOL GetCSExists (
+        _bstr_t CSName );
+    VARIANT_BOOL GetCSMovable (
+        _bstr_t CSName );
+    _bstr_t GetCSName (
+        long CSNumber );
+    VARIANT_BOOL GetCSReadOnly (
+        _bstr_t CSName );
+    _bstr_t GetCSReference (
+        _bstr_t CSName );
+    HRESULT RenameCS (
+        _bstr_t OldName,
+        _bstr_t NewName );
+    _variant_t GetCSTransformMatrix (
+        _bstr_t Name );
+    _variant_t GetCSTransformTuple (
+        _bstr_t Name );
+    HRESULT SetCSTransformMatrix (
+        _bstr_t Name,
+        _bstr_t ReferenceName,
+        const _variant_t & Matrix );
+    HRESULT SetCSTransformTuple (
+        _bstr_t Name,
+        _bstr_t ReferenceName,
+        const _variant_t & Tuple );
+    HRESULT CreatePosition (
+        _bstr_t Name );
+    HRESULT DeletePosition (
+        _bstr_t Name );
+    long GetPositionCount ( );
+    _bstr_t GetPositionDescription (
+        _bstr_t Name );
+    void PutPositionDescription (
+        _bstr_t Name,
+        _bstr_t pVal );
+    VARIANT_BOOL GetPositionExists (
+        _bstr_t PositionName );
+    _bstr_t GetPositionName (
+        long PositionNumber );
+    _bstr_t GetPositionObject (
+        _bstr_t PositionName );
+    _bstr_t GetPositionReference (
+        _bstr_t PositionName );
+    HRESULT RenamePosition (
+        _bstr_t OldName,
+        _bstr_t NewName );
+    _variant_t GetPositionTransformMatrix (
+        _bstr_t Name );
+    _variant_t GetPositionTransformTuple (
+        _bstr_t Name );
+    HRESULT SetPositionTransformMatrix (
+        _bstr_t Name,
+        _bstr_t ObjectName,
+        _bstr_t ReferenceName,
+        const _variant_t & Matrix );
+    HRESULT SetPositionTransformTuple (
+        _bstr_t Name,
+        _bstr_t ObjectName,
+        _bstr_t ReferenceName,
+        const _variant_t & Tuple );
+    HRESULT CreateLimit (
+        _bstr_t Name );
+    HRESULT DeleteLimit (
+        _bstr_t Name );
+    long GetLimitCount ( );
+    _bstr_t GetLimitDescription (
+        _bstr_t Name );
+    void PutLimitDescription (
+        _bstr_t Name,
+        _bstr_t pVal );
+    VARIANT_BOOL GetLimitExists (
+        _bstr_t LimitName );
+    _bstr_t GetLimitName (
+        long LimitNumber );
+    _bstr_t GetLimitObject (
+        _bstr_t LimitName );
+    _bstr_t GetLimitReference (
+        _bstr_t LimitName );
+    _variant_t GetNegLimit (
+        _bstr_t Name );
+    _variant_t GetPosLimit (
+        _bstr_t Name );
+    HRESULT RenameLimit (
+        _bstr_t OldName,
+        _bstr_t NewName );
+    HRESULT SetLimit (
+        _bstr_t Name,
+        _bstr_t ObjectName,
+        _bstr_t ReferenceName,
+        const _variant_t & NegLimit,
+        const _variant_t & PosLimit );
+    long FindDevices ( );
+    _bstr_t GetDeviceAddress (
+        long index );
+    _bstr_t GetDeviceSerialNumber (
+        long index );
+    enum MHPPortStatus GetDeviceStatus (
+        long index );
+    double GetVelocity ( );
+    void PutVelocity (
+        double pVal );
+    _variant_t GetHomeChange ( );
+    _variant_t GetPlatformVelocityTuple ( );
+    _variant_t GetPlatformStepSizeTuple ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_Address (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall put_Address (
+        /*[in]*/ BSTR pVal ) = 0;
+      virtual HRESULT __stdcall get_AssemblyName (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall get_AsyncError (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall get_BaseJointLocation (
+        /*[out,retval]*/ VARIANT * Location ) = 0;
+      virtual HRESULT __stdcall raw_Close ( ) = 0;
+      virtual HRESULT __stdcall raw_Connect (
+        /*[in]*/ VARIANT_BOOL Simulate,
+        /*[in]*/ BSTR Address,
+        /*[in]*/ BSTR SerialNumber ) = 0;
+      virtual HRESULT __stdcall get_Connected (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall get_ConnectedAddress (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall get_ConnectedSerialNumber (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall raw_DeleteCS (
+        /*[in]*/ BSTR Name ) = 0;
+      virtual HRESULT __stdcall raw_Disconnect ( ) = 0;
+      virtual HRESULT __stdcall raw_GetErrorString (
+        /*[in]*/ long ErrorNumber,
+        /*[out,retval]*/ BSTR * ErrorString ) = 0;
+      virtual HRESULT __stdcall raw_GetMaxMoveDistanceTuple (
+        /*[in]*/ enum MHPPosition PositionType,
+        /*[in]*/ BSTR ObjectCS,
+        /*[in]*/ BSTR ReferenceCS,
+        /*[in]*/ VARIANT PositionTuple,
+        /*[out]*/ VARIANT * NegDistance,
+        /*[out]*/ VARIANT * PosDistance ) = 0;
+      virtual HRESULT __stdcall raw_GetMaxMoveDistanceMatrix (
+        /*[in]*/ enum MHPPosition PositionType,
+        /*[in]*/ BSTR ObjectCS,
+        /*[in]*/ BSTR ReferenceCS,
+        /*[in]*/ VARIANT PositionMatrix,
+        /*[out]*/ VARIANT * NegDistance,
+        /*[out]*/ VARIANT * PosDistance ) = 0;
+      virtual HRESULT __stdcall raw_GetMaxMoveOneDirectionTuple (
+        /*[in]*/ enum MHPPosition PositionType,
+        /*[in]*/ BSTR ObjectCS,
+        /*[in]*/ BSTR ReferenceCS,
+        /*[in]*/ VARIANT StartPositionTuple,
+        /*[in]*/ int AxisIndex,
+        /*[in]*/ int Direction,
+        /*[out,retval]*/ double * Distance ) = 0;
+      virtual HRESULT __stdcall raw_GetMaxMoveOneDirectionMatrix (
+        /*[in]*/ enum MHPPosition PositionType,
+        /*[in]*/ BSTR ObjectCS,
+        /*[in]*/ BSTR ReferenceCS,
+        /*[in]*/ VARIANT StartPositionMatrix,
+        /*[in]*/ int AxisIndex,
+        /*[in]*/ int Direction,
+        /*[out,retval]*/ double * Distance ) = 0;
+      virtual HRESULT __stdcall raw_GetMinMaxPositionLegs (
+        /*[out]*/ VARIANT * MinPosition,
+        /*[out]*/ VARIANT * MaxPosition ) = 0;
+      virtual HRESULT __stdcall raw_GetPositionLegs (
+        /*[in]*/ enum MHPPosition PositionType,
+        /*[out,retval]*/ VARIANT * LegLength ) = 0;
+      virtual HRESULT __stdcall raw_GetPositionMatrix (
+        /*[in]*/ enum MHPPosition PositionType,
+        /*[in]*/ BSTR ObjectCS,
+        /*[in]*/ BSTR ReferenceCS,
+        /*[out,retval]*/ VARIANT * PositionMatrix ) = 0;
+      virtual HRESULT __stdcall raw_GetPositionTuple (
+        /*[in]*/ enum MHPPosition PositionType,
+        /*[in]*/ BSTR ObjectCS,
+        /*[in]*/ BSTR ReferenceCS,
+        /*[out,retval]*/ VARIANT * PositionTuple ) = 0;
+      virtual HRESULT __stdcall raw_GetPositionValid (
+        /*[in]*/ enum MHPPosition PositionType,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Home ( ) = 0;
+      virtual HRESULT __stdcall get_HomeLegLength (
+        /*[out,retval]*/ VARIANT * LegLength ) = 0;
+      virtual HRESULT __stdcall get_Homed (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall get_Homing (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall get_InLimitSwitch (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall get_LegStepSize (
+        /*[out,retval]*/ VARIANT * LegStepSize ) = 0;
+      virtual HRESULT __stdcall get_LoggingEnabled (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall put_LoggingEnabled (
+        /*[in]*/ VARIANT_BOOL pVal ) = 0;
+      virtual HRESULT __stdcall get_LogSeverityLevel (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall put_LogSeverityLevel (
+        /*[in]*/ BSTR pVal ) = 0;
+      virtual HRESULT __stdcall raw_LogText (
+        /*[in]*/ BSTR SeverityLevel,
+        /*[in]*/ BSTR MessageText ) = 0;
+      virtual HRESULT __stdcall raw_MoveLegs (
+        /*[in]*/ VARIANT LegLength ) = 0;
+      virtual HRESULT __stdcall raw_MoveMatrix (
+        /*[in]*/ VARIANT_BOOL Execute,
+        /*[in]*/ BSTR ObjectCS,
+        /*[in]*/ BSTR ReferenceCS,
+        /*[in]*/ VARIANT PositionMatrix ) = 0;
+      virtual HRESULT __stdcall raw_MovePosition (
+        /*[in]*/ VARIANT_BOOL Execute,
+        /*[in]*/ BSTR PositionName ) = 0;
+      virtual HRESULT __stdcall raw_MoveTuple (
+        /*[in]*/ VARIANT_BOOL Execute,
+        /*[in]*/ BSTR ObjectCS,
+        /*[in]*/ BSTR ReferenceCS,
+        /*[in]*/ VARIANT PositionTuple ) = 0;
+      virtual HRESULT __stdcall get_Moving (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Open (
+        /*[in]*/ BSTR DeviceName ) = 0;
+      virtual HRESULT __stdcall get_PlatformJointLocation (
+        /*[out,retval]*/ VARIANT * Location ) = 0;
+      virtual HRESULT __stdcall raw_GetPlatformLimits (
+        /*[out]*/ VARIANT * NegLimitVariant,
+        /*[out]*/ VARIANT * PosLimitVariant ) = 0;
+      virtual HRESULT __stdcall get_ReadCacheTime (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall put_ReadCacheTime (
+        /*[in]*/ double pVal ) = 0;
+      virtual HRESULT __stdcall raw_Rotate (
+        /*[in]*/ VARIANT_BOOL Execute,
+        /*[in]*/ BSTR ObjectCS,
+        /*[in]*/ BSTR ReferenceCS,
+        /*[in]*/ double Rx,
+        /*[in]*/ double Ry,
+        /*[in]*/ double Rz ) = 0;
+      virtual HRESULT __stdcall get_SerialNumber (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall put_SerialNumber (
+        /*[in]*/ BSTR pVal ) = 0;
+      virtual HRESULT __stdcall get_SimulateMotionVelocity (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall put_SimulateMotionVelocity (
+        /*[in]*/ VARIANT_BOOL pVal ) = 0;
+      virtual HRESULT __stdcall get_Simulated (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Stop ( ) = 0;
+      virtual HRESULT __stdcall raw_Translate (
+        /*[in]*/ VARIANT_BOOL Execute,
+        /*[in]*/ BSTR ObjectCS,
+        /*[in]*/ BSTR ReferenceCS,
+        /*[in]*/ double X,
+        /*[in]*/ double Y,
+        /*[in]*/ double Z ) = 0;
+      virtual HRESULT __stdcall get_Version (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall raw_CreateCS (
+        /*[in]*/ BSTR Name,
+        /*[in]*/ BSTR ReferenceName ) = 0;
+      virtual HRESULT __stdcall get_CSCount (
+        /*[out,retval]*/ long * pVal ) = 0;
+      virtual HRESULT __stdcall get_CSDescription (
+        /*[in]*/ BSTR Name,
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall put_CSDescription (
+        /*[in]*/ BSTR Name,
+        /*[in]*/ BSTR pVal ) = 0;
+      virtual HRESULT __stdcall get_CSExists (
+        /*[in]*/ BSTR CSName,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall get_CSMovable (
+        /*[in]*/ BSTR CSName,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall get_CSName (
+        /*[in]*/ long CSNumber,
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall get_CSReadOnly (
+        /*[in]*/ BSTR CSName,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall get_CSReference (
+        /*[in]*/ BSTR CSName,
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall raw_RenameCS (
+        /*[in]*/ BSTR OldName,
+        /*[in]*/ BSTR NewName ) = 0;
+      virtual HRESULT __stdcall get_CSTransformMatrix (
+        /*[in]*/ BSTR Name,
+        /*[out,retval]*/ VARIANT * Matrix ) = 0;
+      virtual HRESULT __stdcall get_CSTransformTuple (
+        /*[in]*/ BSTR Name,
+        /*[out,retval]*/ VARIANT * Tuple ) = 0;
+      virtual HRESULT __stdcall raw_SetCSTransformMatrix (
+        /*[in]*/ BSTR Name,
+        /*[in]*/ BSTR ReferenceName,
+        /*[in]*/ VARIANT Matrix ) = 0;
+      virtual HRESULT __stdcall raw_SetCSTransformTuple (
+        /*[in]*/ BSTR Name,
+        /*[in]*/ BSTR ReferenceName,
+        /*[in]*/ VARIANT Tuple ) = 0;
+      virtual HRESULT __stdcall raw_CreatePosition (
+        /*[in]*/ BSTR Name ) = 0;
+      virtual HRESULT __stdcall raw_DeletePosition (
+        /*[in]*/ BSTR Name ) = 0;
+      virtual HRESULT __stdcall get_PositionCount (
+        /*[out,retval]*/ long * pVal ) = 0;
+      virtual HRESULT __stdcall get_PositionDescription (
+        /*[in]*/ BSTR Name,
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall put_PositionDescription (
+        /*[in]*/ BSTR Name,
+        /*[in]*/ BSTR pVal ) = 0;
+      virtual HRESULT __stdcall get_PositionExists (
+        /*[in]*/ BSTR PositionName,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall get_PositionName (
+        /*[in]*/ long PositionNumber,
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall get_PositionObject (
+        /*[in]*/ BSTR PositionName,
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall get_PositionReference (
+        /*[in]*/ BSTR PositionName,
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall raw_RenamePosition (
+        /*[in]*/ BSTR OldName,
+        /*[in]*/ BSTR NewName ) = 0;
+      virtual HRESULT __stdcall get_PositionTransformMatrix (
+        /*[in]*/ BSTR Name,
+        /*[out,retval]*/ VARIANT * Matrix ) = 0;
+      virtual HRESULT __stdcall get_PositionTransformTuple (
+        /*[in]*/ BSTR Name,
+        /*[out,retval]*/ VARIANT * Tuple ) = 0;
+      virtual HRESULT __stdcall raw_SetPositionTransformMatrix (
+        /*[in]*/ BSTR Name,
+        /*[in]*/ BSTR ObjectName,
+        /*[in]*/ BSTR ReferenceName,
+        /*[in]*/ VARIANT Matrix ) = 0;
+      virtual HRESULT __stdcall raw_SetPositionTransformTuple (
+        /*[in]*/ BSTR Name,
+        /*[in]*/ BSTR ObjectName,
+        /*[in]*/ BSTR ReferenceName,
+        /*[in]*/ VARIANT Tuple ) = 0;
+      virtual HRESULT __stdcall raw_CreateLimit (
+        /*[in]*/ BSTR Name ) = 0;
+      virtual HRESULT __stdcall raw_DeleteLimit (
+        /*[in]*/ BSTR Name ) = 0;
+      virtual HRESULT __stdcall get_LimitCount (
+        /*[out,retval]*/ long * pVal ) = 0;
+      virtual HRESULT __stdcall get_LimitDescription (
+        /*[in]*/ BSTR Name,
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall put_LimitDescription (
+        /*[in]*/ BSTR Name,
+        /*[in]*/ BSTR pVal ) = 0;
+      virtual HRESULT __stdcall get_LimitExists (
+        /*[in]*/ BSTR LimitName,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall get_LimitName (
+        /*[in]*/ long LimitNumber,
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall get_LimitObject (
+        /*[in]*/ BSTR LimitName,
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall get_LimitReference (
+        /*[in]*/ BSTR LimitName,
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall get_NegLimit (
+        /*[in]*/ BSTR Name,
+        /*[out,retval]*/ VARIANT * Tuple ) = 0;
+      virtual HRESULT __stdcall get_PosLimit (
+        /*[in]*/ BSTR Name,
+        /*[out,retval]*/ VARIANT * Tuple ) = 0;
+      virtual HRESULT __stdcall raw_RenameLimit (
+        /*[in]*/ BSTR OldName,
+        /*[in]*/ BSTR NewName ) = 0;
+      virtual HRESULT __stdcall raw_SetLimit (
+        /*[in]*/ BSTR Name,
+        /*[in]*/ BSTR ObjectName,
+        /*[in]*/ BSTR ReferenceName,
+        /*[in]*/ VARIANT NegLimit,
+        /*[in]*/ VARIANT PosLimit ) = 0;
+      virtual HRESULT __stdcall raw_FindDevices (
+        /*[out,retval]*/ long * pVal ) = 0;
+      virtual HRESULT __stdcall get_DeviceAddress (
+        /*[in]*/ long index,
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall get_DeviceSerialNumber (
+        /*[in]*/ long index,
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall get_DeviceStatus (
+        /*[in]*/ long index,
+        /*[out,retval]*/ enum MHPPortStatus * pVal ) = 0;
+      virtual HRESULT __stdcall get_Velocity (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall put_Velocity (
+        /*[in]*/ double pVal ) = 0;
+      virtual HRESULT __stdcall get_HomeChange (
+        /*[out,retval]*/ VARIANT * Change ) = 0;
+      virtual HRESULT __stdcall get_PlatformVelocityTuple (
+        /*[out,retval]*/ VARIANT * PlatformVelocity ) = 0;
+      virtual HRESULT __stdcall get_PlatformStepSizeTuple (
+        /*[out,retval]*/ VARIANT * PlatformStepSize ) = 0;
+};
+
+enum MHPConstant
+{
+    TaitBryanTupleSize = 6,
+    TransformMatrixSize = 16,
+    LegCount = 6
+};
+
+//
+// Wrapper method implementations
+//
+
+#include "c:\users\hmms\documents\github\thesis\kuka-lwr\vsprojects\scripts\release\hexapodcom.tli"
+
+} // namespace HexapodCOMLib
+
+#pragma pack(pop)

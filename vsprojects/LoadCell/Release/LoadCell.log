@@ -1,0 +1,14 @@
+﻿Build started 6/14/2016 2:00:44 PM.
+     1>Project "C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\vsprojects\LoadCell\LoadCell.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\National Instruments\NI-DAQ\DAQmx ANSI C Dev\include" /I"C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\external\DSPFiltersComplete\shared\DSPFilters\include\DspFilters" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\Nano25E.cpp
+         Nano25E.cpp
+     1>..\..\src\Nano25E.cpp(66): warning C4244: '=' : conversion from 'float64' to 'float', possible loss of data
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\vsprojects\Release\LoadCell.lib" DSPFilters.lib /LIBPATH:"C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\libs\release" /NOLOGO /LTCG Release\Nano25E.obj
+         LoadCell.vcxproj -> C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\vsprojects\Release\LoadCell.lib
+     1>Done Building Project "C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\vsprojects\LoadCell\LoadCell.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.51

@@ -1,0 +1,68 @@
+#pragma once
+
+// Error codes are ints.
+#define MHPError int
+
+// Define error numbers
+
+#define MHPErrorBase						1000
+
+#define MHPErrorNone							(MHPErrorBase)
+#define MHPErrorInvalidErrorNumber				(MHPErrorBase+   1)
+#define MHPErrorPathNotFound 					(MHPErrorBase+   2)
+#define MHPErrorPathTooLong						(MHPErrorBase+   3)
+#define MHPErrorDeviceNotFound					(MHPErrorBase+   4)
+#define MHPErrorDeviceNotOpen					(MHPErrorBase+   5)
+#define MHPErrorDeviceInUse						(MHPErrorBase+   6)
+#define MHPErrorCannotCreateBackupFile			(MHPErrorBase+	 7)
+#define MHPErrorCannotWriteFile					(MHPErrorBase+   8)
+#define MHPErrorCannotWriteStateFile			(MHPErrorBase+   9)
+#define MHPErrorCannotReadDeviceFile			(MHPErrorBase+	10)
+#define MHPErrorCannotReadCSFile				(MHPErrorBase+  11)
+#define MHPErrorCannotParseDeviceFile			(MHPErrorBase+  12)
+#define MHPErrorCannotParseCSFile				(MHPErrorBase+  13)
+#define MHPErrorCannotReadStateFile				(MHPErrorBase+  14)
+#define MHPErrorCannotParseStateFile			(MHPErrorBase+  15)
+#define MHPErrorCannotConstructLogFile			(MHPErrorBase+  16)
+#define MHPErrorInvalidSeverityLevel			(MHPErrorBase+  17)
+#define MHPErrorCannotConnectDevice				(MHPErrorBase+  18)
+#define MHPErrorDeviceNotConnected				(MHPErrorBase+  19)
+#define MHPErrorCannotCalculateLegLengths		(MHPErrorBase+  20)
+#define MHPErrorNotImplemented					(MHPErrorBase+  21)
+#define MHPErrorCannotCalculateTransform		(MHPErrorBase+  22)
+#define MHPErrorInvalidMove						(MHPErrorBase+  23)
+#define MHPErrorInvalidLegCount					(MHPErrorBase+  24)
+#define MHPErrorInvalidPositionType         	(MHPErrorBase+  25)
+#define MHPErrorPositionSolveFailed        		(MHPErrorBase+  26)
+#define MHPErrorCoordinateSystemNotDefined		(MHPErrorBase+  27)
+#define MHPErrorInvalidCoordinateSystem			(MHPErrorBase+  28)
+#define MHPErrorCannotCreateCoordinateSystem	(MHPErrorBase+  29)
+#define MHPErrorCannotDeleteCoordinateSystem	(MHPErrorBase+  30)
+#define MHPErrorCannotRenameCoordinateSystem	(MHPErrorBase+  31)
+#define MHPErrorPositionNotDefined				(MHPErrorBase+  32)
+#define MHPErrorInvalidPosition					(MHPErrorBase+  33)
+#define MHPErrorCannotCreatePosition			(MHPErrorBase+  34)
+#define MHPErrorCannotDeletePosition			(MHPErrorBase+  35)
+#define MHPErrorCannotRenamePosition			(MHPErrorBase+  36)
+#define MHPErrorLimitNotDefined					(MHPErrorBase+  37)
+#define MHPErrorInvalidLimit					(MHPErrorBase+  38)
+#define MHPErrorCannotCreateLimit				(MHPErrorBase+  39)
+#define MHPErrorCannotDeleteLimit				(MHPErrorBase+  40)
+#define MHPErrorCannotRenameLimit				(MHPErrorBase+  41)
+#define MHPErrorCannotCreateFolder				(MHPErrorBase+	42)
+#define MHPErrorCannotOpenDeviceDLL				(MHPErrorBase+	43)
+#define MHPErrorMissingFunctionDeviceDLL		(MHPErrorBase+	44)
+#define MHPErrorTimeoutDevice					(MHPErrorBase+	45)
+#define MHPErrorInvalidDeviceAddress            (MHPErrorBase+	46)
+#define MHPErrorCannotDisconnectDevice			(MHPErrorBase+  47)
+#define MHPErrorDeviceBusy						(MHPErrorBase+  48)
+#define MHPErrorBufferTooSmall					(MHPErrorBase+  49)
+#define	MHPErrorInvalidLegLength				(MHPErrorBase+  50)
+#define MHPErrorIncorrectSerialNumber			(MHPErrorBase+  51)
+#define MHPErrorEnumerateDevicePortsFailed		(MHPErrorBase+  52)
+#define MHPErrorSerialNumberNotFound			(MHPErrorBase+  53)
+#define MHPErrorConnectionNotSimulate			(MHPErrorBase+  54)
+
+#define MHPErrorOutOfMemory						(MHPErrorBase+  55)
+
+#define MHPErrorMax MHPErrorOutOfMemory

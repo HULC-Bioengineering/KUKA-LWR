@@ -1,0 +1,16 @@
+#ignoring everything except the Visual Studio project with the hexepod code and src/
+#and include is also kept as well
+calibration/
+documentation/
+endeffector/
+external/
+future/
+gui/
+legacy/
+libs/
+MHP/
+optical/
+paths/
+
+#ignoring vsprojects/KUKA.sdf because its a database and its too big
+vsprojects/KUKA.sdf

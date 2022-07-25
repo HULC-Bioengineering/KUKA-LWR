@@ -1,0 +1,46 @@
+﻿Build started 6/13/2016 2:07:51 PM.
+     1>Project "C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\external\DSPFiltersComplete\shared\DSPFilters\Builds\VisualStudio2010\DSPFilters.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../../include /Zi /nologo /W3 /WX- /MP /O2 /Oi /Ot /Oy- /D WIN32 /D NDEBUG /D _LIB /Gm- /EHsc /MT /GS- /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\vsprojects\KUKA-Output\Intermediates\DSPFilters-Win32Release\\" /Fd"C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\vsprojects\KUKA-Output\Intermediates\DSPFilters-Win32Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\source\Bessel.cpp ..\..\source\Biquad.cpp ..\..\source\Butterworth.cpp ..\..\source\Cascade.cpp ..\..\source\ChebyshevI.cpp ..\..\source\ChebyshevII.cpp ..\..\source\Custom.cpp ..\..\source\Design.cpp ..\..\source\Documentation.cpp ..\..\source\Elliptic.cpp ..\..\source\Filter.cpp ..\..\source\Legendre.cpp ..\..\source\Param.cpp ..\..\source\PoleFilter.cpp ..\..\source\RBJ.cpp ..\..\source\RootFinder.cpp ..\..\source\State.cpp
+         Bessel.cpp
+         Biquad.cpp
+         Butterworth.cpp
+         Cascade.cpp
+         ChebyshevI.cpp
+         ChebyshevII.cpp
+         Custom.cpp
+         Design.cpp
+         Documentation.cpp
+         Elliptic.cpp
+         Filter.cpp
+         Legendre.cpp
+         Param.cpp
+         PoleFilter.cpp
+         RBJ.cpp
+         RootFinder.cpp
+         State.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\vsprojects\KUKA-Output\Products\Win32Release\DSPFilters.lib" /NOLOGO "C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\vsprojects\KUKA-Output\Intermediates\DSPFilters-Win32Release\Bessel.obj"
+         "C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\vsprojects\KUKA-Output\Intermediates\DSPFilters-Win32Release\Biquad.obj"
+         "C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\vsprojects\KUKA-Output\Intermediates\DSPFilters-Win32Release\Butterworth.obj"
+         "C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\vsprojects\KUKA-Output\Intermediates\DSPFilters-Win32Release\Cascade.obj"
+         "C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\vsprojects\KUKA-Output\Intermediates\DSPFilters-Win32Release\ChebyshevI.obj"
+         "C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\vsprojects\KUKA-Output\Intermediates\DSPFilters-Win32Release\ChebyshevII.obj"
+         "C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\vsprojects\KUKA-Output\Intermediates\DSPFilters-Win32Release\Custom.obj"
+         "C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\vsprojects\KUKA-Output\Intermediates\DSPFilters-Win32Release\Design.obj"
+         "C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\vsprojects\KUKA-Output\Intermediates\DSPFilters-Win32Release\Documentation.obj"
+         "C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\vsprojects\KUKA-Output\Intermediates\DSPFilters-Win32Release\Elliptic.obj"
+         "C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\vsprojects\KUKA-Output\Intermediates\DSPFilters-Win32Release\Filter.obj"
+         "C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\vsprojects\KUKA-Output\Intermediates\DSPFilters-Win32Release\Legendre.obj"
+         "C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\vsprojects\KUKA-Output\Intermediates\DSPFilters-Win32Release\Param.obj"
+         "C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\vsprojects\KUKA-Output\Intermediates\DSPFilters-Win32Release\PoleFilter.obj"
+         "C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\vsprojects\KUKA-Output\Intermediates\DSPFilters-Win32Release\RBJ.obj"
+         "C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\vsprojects\KUKA-Output\Intermediates\DSPFilters-Win32Release\RootFinder.obj"
+         "C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\vsprojects\KUKA-Output\Intermediates\DSPFilters-Win32Release\State.obj"
+     1>Design.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         DSPFilters.vcxproj -> C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\vsprojects\KUKA-Output\Products\Win32Release\DSPFilters.lib
+     1>Done Building Project "C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\external\DSPFiltersComplete\shared\DSPFilters\Builds\VisualStudio2010\DSPFilters.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.38
