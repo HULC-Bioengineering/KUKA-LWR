@@ -1126,7 +1126,7 @@ void MHPRunPath(IHexapodPtr& mhp, Nano25E& lc, int robot)
 
 		//===== Set Velocity =====//
 		MHPVelocity(mhp, lc);
-
+		//this is still putting everything in the older folder rather than the folder with git, should probably be chaned
 		string full_path = "C:/Users/HMMS/Documents/GitHub/Thesis/KUKA LWR/MHP/paths/New_Robot_Grid/" + filestring + ".csv";	//full path name of where the path file should be
 
 		list<vector<double>> position;																			//declares a list of vectors to store all the position data
