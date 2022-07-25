@@ -1,0 +1,201 @@
+Evaluators
+{
+
+CScimitarRTDoc : Collection_Producer
+{
+
+[GENERIC_SETTINGS]
+Description = 
+
+[COLLECTION_SETTINGS]
+CollectionTime = 1.000000
+FrameFrequency = 100.000000
+CollectionDelay = 0
+CompositeClock = 0
+
+[MARKERS_SETTINGS]
+NumberOfMarkers = 12
+
+[MARKER_SETTINGS]
+Port1 = 12
+Port2 = 0
+Port3 = 0
+Port4 = 0
+DutyCycle = 40
+MarkerFrequency = 3000.000000
+StroberVoltage = 10.000000
+PopulatedPorts = 1
+[Layout - P0]
+Label = Port 1
+MarkersAvailable = 0
+UseRom = 0
+Cap3020 = 0
+HasROM = 0
+ToolPorts = 0
+VLEDs = 0
+Switches = 0
+Port = 1
+Order = -1
+SubPort = -1
+StroberCount = 1
+[Layout - P0_S0]
+Label = Wireless Strober
+MarkersAvailable = 50
+UseRom = 0
+Cap3020 = 0
+HasROM = 0
+ToolPorts = 0
+VLEDs = 0
+Switches = 0
+Port = 1
+Order = 1
+SubPort = 0
+MaxMarkerVoltage = 15
+MarkersToActivate = 12
+Type = 5
+MarkerIndexCount = 12
+MarkerIndex0 = 0
+MarkerIndex1 = 1
+MarkerIndex2 = 2
+MarkerIndex3 = 3
+MarkerIndex4 = 4
+MarkerIndex5 = 5
+MarkerIndex6 = 6
+MarkerIndex7 = 7
+MarkerIndex8 = 8
+MarkerIndex9 = 9
+MarkerIndex10 = 10
+MarkerIndex11 = 11
+SwitchIndexCount = 0
+ToolCount = 0
+SmartConfig = MMMEMMMEMMMEMMMEE
+StringLabelCount = 4
+StringLabel0 = SPort1
+StringLabel1 = SPort2
+StringLabel2 = SPort3
+StringLabel3 = SPort4
+
+[Mkr_0]
+Label = Marker_1
+FOR_ID = 0
+RB_ID = 0
+FIRING_NODE = 1
+[Mkr_1]
+Label = Marker_2
+FOR_ID = 0
+RB_ID = 0
+FIRING_NODE = 2
+[Mkr_2]
+Label = Marker_3
+FOR_ID = 0
+RB_ID = 0
+FIRING_NODE = 3
+[Mkr_3]
+Label = Marker_4
+FOR_ID = 0
+RB_ID = 0
+FIRING_NODE = 4
+[Mkr_4]
+Label = Marker_5
+FOR_ID = 0
+RB_ID = 0
+FIRING_NODE = 5
+[Mkr_5]
+Label = Marker_6
+FOR_ID = 0
+RB_ID = 0
+FIRING_NODE = 6
+[Mkr_6]
+Label = Marker_7
+FOR_ID = 0
+RB_ID = 0
+FIRING_NODE = 7
+[Mkr_7]
+Label = Marker_8
+FOR_ID = 0
+RB_ID = 0
+FIRING_NODE = 8
+[Mkr_8]
+Label = Marker_9
+FOR_ID = 0
+RB_ID = 0
+FIRING_NODE = 9
+[Mkr_9]
+Label = Marker_10
+FOR_ID = 0
+RB_ID = 0
+FIRING_NODE = 10
+[Mkr_10]
+Label = Marker_11
+FOR_ID = 0
+RB_ID = 0
+FIRING_NODE = 11
+[Mkr_11]
+Label = Marker_12
+FOR_ID = 0
+RB_ID = 0
+FIRING_NODE = 12
+
+[SWITCH_SETTINGS]
+SwitchCount = 0
+
+[RIGID_SETTINGS]
+RBCount = 4
+
+[RigidBody_0]
+ID = 3
+FOR_ID = 0
+StartMarker = 0
+FilePath = C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\calibration\smart_02.rig
+Label = smart_02
+[IMARKER_SETTINGS - RB_0]
+NumberOfMarkers = 0
+
+[RigidBody_1]
+ID = 4
+FOR_ID = 0
+StartMarker = 3
+FilePath = C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\calibration\smart_03.rig
+Label = smart_03
+[IMARKER_SETTINGS - RB_1]
+NumberOfMarkers = 0
+
+[RigidBody_2]
+ID = 5
+FOR_ID = 0
+StartMarker = 6
+FilePath = C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\calibration\bsty0213.rig
+Label = bsty0213
+[IMARKER_SETTINGS - RB_2]
+NumberOfMarkers = 0
+
+[RigidBody_3]
+ID = 6
+FOR_ID = 0
+StartMarker = 9
+FilePath = C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\calibration\smart_04.rig
+Label = smart_04
+[IMARKER_SETTINGS - RB_3]
+NumberOfMarkers = 0
+
+
+[ODAU_SETTINGS]
+ODAUCount = 0
+}
+CViewCollector : CTextView
+{
+ShowTypes = 79
+Units = 0
+Precision = 3
+RotationType = 0
+
+}
+
+}
+
+Connections
+{
+
+
+}
+

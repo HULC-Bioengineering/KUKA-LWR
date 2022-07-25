@@ -1,13 +1,13 @@
 #ignoring everything except the Visual Studio project with the hexepod code and src/
 #and include is also kept as well
-calibration/
+
 documentation/
 endeffector/
 external/
 future/
 gui/
 legacy/
-libs/
+
 MHP/
 optical/
 paths/
