@@ -29,7 +29,7 @@
 * A PID controller is a widely used feedback controller commonly found in
 * industry.
 * This library has been modified to suite the needs of a PID controller for
-* the KUKA LWR4+ manipulator.
+* the KUKA-LWR4+ manipulator.
 *
 * This library is a port of Aaron Berk's ARM PID library:
 *

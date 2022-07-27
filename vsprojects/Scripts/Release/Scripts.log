@@ -1,7 +1,21 @@
-﻿Build started 7/21/2022 2:12:37 PM.
+﻿Build started 7/27/2022 10:15:24 AM.
      1>Project "C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\vsprojects\Scripts\Scripts.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\external\ATICombinedDAQFT" /I"C:\Program Files (x86)\National Instruments\NI-DAQ\DAQmx ANSI C Dev\include" /I"C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\external\boost_1_57_0\boost_1_57_0" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\execute.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\external\ATICombinedDAQFT" /I"C:\Program Files (x86)\National Instruments\NI-DAQ\DAQmx ANSI C Dev\include" /I"C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\external\boost_1_57_0\boost_1_57_0" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\Scripts\FollowPath.cpp ..\..\src\Scripts\NavByBendingForces.cpp ..\..\src\execute.cpp
+         FollowPath.cpp
+         NavByBendingForces.cpp
+     1>..\..\src\Scripts\NavByBendingForces.cpp(52): warning C4244: 'argument' : conversion from 'const double' to 'const float', possible loss of data
+     1>..\..\src\Scripts\NavByBendingForces.cpp(53): warning C4244: 'argument' : conversion from 'const double' to 'const float', possible loss of data
+     1>..\..\src\Scripts\NavByBendingForces.cpp(54): warning C4244: 'argument' : conversion from 'const double' to 'const float', possible loss of data
+     1>..\..\src\Scripts\NavByBendingForces.cpp(741): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\src\Scripts\NavByBendingForces.cpp(742): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\src\Scripts\NavByBendingForces.cpp(743): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\src\Scripts\NavByBendingForces.cpp(744): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\src\Scripts\NavByBendingForces.cpp(745): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\src\Scripts\NavByBendingForces.cpp(746): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\src\Scripts\NavByBendingForces.cpp(747): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\src\Scripts\NavByBendingForces.cpp(748): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\src\Scripts\NavByBendingForces.cpp(749): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
          execute.cpp
      1>..\..\src\execute.cpp(900): warning C4101: 'ex' : unreferenced local variable
      1>..\..\src\execute.cpp(926): warning C4101: 'ex' : unreferenced local variable
@@ -94,4 +108,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:20.08
+Time Elapsed 00:00:22.73

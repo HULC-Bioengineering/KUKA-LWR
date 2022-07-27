@@ -16,15 +16,15 @@
 #ifndef STATISTICS_H_
 #define STATISTICS_H_
 
-#include <C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\external\boost_1_57_0\boost\accumulators\accumulators.hpp>
-#include <C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\external\boost_1_57_0\boost\accumulators\statistics\max.hpp>
-#include <C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\external\boost_1_57_0\boost\accumulators\statistics\min.hpp>
-#include <C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\external\boost_1_57_0\boost\accumulators\statistics\mean.hpp>
-#include <C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\external\boost_1_57_0\boost\accumulators\statistics\stats.hpp>
-#include <C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\external\boost_1_57_0\boost\accumulators\statistics\variance.hpp>
-#include <C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\external\boost_1_57_0\boost\algorithm\string.hpp>
-#include <C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\external\boost_1_57_0\boost\algorithm\string\join.hpp>
-#include <C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\external\boost_1_57_0\boost\algorithm\string\split.hpp>
+#include <C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\external\boost_1_57_0\boost\accumulators\accumulators.hpp>
+#include <C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\external\boost_1_57_0\boost\accumulators\statistics\max.hpp>
+#include <C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\external\boost_1_57_0\boost\accumulators\statistics\min.hpp>
+#include <C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\external\boost_1_57_0\boost\accumulators\statistics\mean.hpp>
+#include <C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\external\boost_1_57_0\boost\accumulators\statistics\stats.hpp>
+#include <C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\external\boost_1_57_0\boost\accumulators\statistics\variance.hpp>
+#include <C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\external\boost_1_57_0\boost\algorithm\string.hpp>
+#include <C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\external\boost_1_57_0\boost\algorithm\string\join.hpp>
+#include <C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\external\boost_1_57_0\boost\algorithm\string\split.hpp>
 #include <string>
 #include <vector>
 #include <unordered_map>

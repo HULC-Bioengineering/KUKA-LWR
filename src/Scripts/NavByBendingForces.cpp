@@ -482,7 +482,7 @@ void LogControlParameters(ofstream& os, milliseconds &ms, unsigned int& path_poi
 //   - 3x parrell PID's (X,Y,Z) 
 //
 // Parameters:
-//   lwr: KUKA LWR.
+//   lwr: KUKA-LWR.
 //   load_cell: Nano25E load cell.
 //   follow_loads_path: Input file containing loads and positions.
 //   output_filename: Output file.
@@ -504,7 +504,7 @@ int NavByBendingForces(LWR& lwr, Nano25E& load_cell,
   const vector<double> SAFETY_BOUNDARY = { 1.012, 1.012, 1.007 };
 
   const string LOG_PATH_BASE =
-    "C:\\Users\\HMMS\\Documents\\GitHub\\Thesis\\KUKA LWR\\experiments\\";
+    "C:\\Users\\HMMS\\Documents\\GitHub\\Thesis\\KUKA-LWR\\experiments\\";
   const string LOG_PATH_FILENAME = LOG_PATH_BASE +
     output_filename + Config::Extension::CSV;
   const string STATISTICS_FILENAME = LOG_PATH_BASE +

@@ -13,3 +13,4 @@ MHP/
 
 #ignoring vsprojects/KUKA.sdf because its a database and its too big
 vsprojects/KUKA.sdf
+vsprojects/KUKA.opensdf

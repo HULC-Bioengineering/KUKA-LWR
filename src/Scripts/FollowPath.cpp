@@ -16,9 +16,9 @@ int FollowPath(LWR& lwr, Nano25E& load_cell, string follow_path_filename, string
   vector<float> load_val;
 
   const std::string input = \
-    "-i \"C:\\Users\\HMMS\\Documents\\GitHub\\Thesis\\KUKA LWR\\paths\\position\\first_cut_square.ngc\"";
+    "-i \"C:\\Users\\HMMS\\Documents\\GitHub\\Thesis\\KUKA-LWR\\paths\\position\\first_cut_square.ngc\"";
   const std::string options = "-z 1 -x 1 -y 1";
-  const std::string output = "-o \"C:\\Users\\HMMS\\Documents\\GitHub\\Thesis\\KUKA LWR\\paths\\position\\first_cut_square.csv\"";
+  const std::string output = "-o \"C:\\Users\\HMMS\\Documents\\GitHub\\Thesis\\KUKA-LWR\\paths\\position\\first_cut_square.csv\"";
 
   MotionParser mp = MotionParser();
   mp.SetInputFile(follow_path_filename);

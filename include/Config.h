@@ -18,7 +18,7 @@
 
 #include <string>
 #include <vector>
-#include <C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\external\eigen\Eigen\Dense>
+#include <C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\external\eigen\Eigen\Dense>
 #import "C:\Users\HMMS\Documents\Corey\Hexapod\Hexapod Code\bin\x64\HexapodCOM.dll"
 
 #ifndef PI
@@ -118,7 +118,7 @@ namespace Config {
   namespace Filepath {
     // file folders and base path
     const std::string BASE_PATH = \
-      "C:\\Users\\HMMS\\Documents\\GitHub\\Thesis\\KUKA LWR\\";
+      "C:\\Users\\HMMS\\Documents\\GitHub\\Thesis\\KUKA-LWR\\";
     const std::string EXP_PATH = BASE_PATH + "experiments\\";
     const std::string LOGS_PATH = BASE_PATH + "experiments\\free_record\\";
     const std::string PATHS_POSITION_PATH = BASE_PATH + "paths\\position\\";
@@ -135,9 +135,9 @@ namespace Config {
     const std::string python_path = \
       "C:\\Users\\HMMS\\Downloads\\WinPython-64bit-3.4.3.3\\python-3.4.3.amd64\\python.exe";
     const std::string parser_path = \
-      "\"C:\\Users\\HMMS\\Documents\\GitHub\\Thesis\\KUKA LWR\\gui\\ngc_parser.py\"";
+      "\"C:\\Users\\HMMS\\Documents\\GitHub\\Thesis\\KUKA-LWR\\gui\\ngc_parser.py\"";
     const std::string plot_gen = \
-      "\"C:\\Users\\HMMS\\Documents\\GitHub\\Thesis\\KUKA LWR\\gui\\plot_graphs.py\"";
+      "\"C:\\Users\\HMMS\\Documents\\GitHub\\Thesis\\KUKA-LWR\\gui\\plot_graphs.py\"";
   };
 
   // common file extensions

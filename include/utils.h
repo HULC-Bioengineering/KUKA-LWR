@@ -28,13 +28,13 @@
 
 #include <unordered_map>
 
-#include <C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\external\boost_1_57_0\boost\numeric\ublas\io.hpp> 
-#include <C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\external\boost_1_57_0\boost\numeric\ublas\matrix.hpp>
-#include <C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\external\boost_1_57_0\boost\numeric\ublas\lu.hpp>
-#include <C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\external\boost_1_57_0\boost\filesystem.hpp>
-#include <C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\external\boost_1_57_0\boost\algorithm\string.hpp>
-#include <C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\external\boost_1_57_0\boost\algorithm\string\join.hpp>
-#include <C:\Users\HMMS\Documents\GitHub\Thesis\KUKA LWR\external\boost_1_57_0\boost\algorithm\string\split.hpp>
+#include <C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\external\boost_1_57_0\boost\numeric\ublas\io.hpp> 
+#include <C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\external\boost_1_57_0\boost\numeric\ublas\matrix.hpp>
+#include <C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\external\boost_1_57_0\boost\numeric\ublas\lu.hpp>
+#include <C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\external\boost_1_57_0\boost\filesystem.hpp>
+#include <C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\external\boost_1_57_0\boost\algorithm\string.hpp>
+#include <C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\external\boost_1_57_0\boost\algorithm\string\join.hpp>
+#include <C:\Users\HMMS\Documents\GitHub\Thesis\KUKA-LWR\external\boost_1_57_0\boost\algorithm\string\split.hpp>
 
 #include <Eigen/Dense>
 

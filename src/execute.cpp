@@ -574,7 +574,7 @@ void GetLoadCellLoads(Nano25E& lc) {
 
   //added
   int size = loads.size();
-  string save_paths = "C:/Users/HMMS/Documents/GitHub/Thesis/KUKA LWR/MHP/loads/drifting.csv";
+  string save_paths = "C:/Users/HMMS/Documents/GitHub/Thesis/KUKA-LWR/MHP/loads/drifting.csv";
 	ofstream savefile(save_paths);																//loops through each load file name to separate the loads
 	for (int row = 0; row < size; row++)																//used to loop through all the vectors 
 	{
@@ -589,7 +589,7 @@ void GetLoadCellLoads(Nano25E& lc) {
 		  savefile << "\n";																				//writes a new line in the file onces a vector is completed
 	  };
 	int size1 = loads1.size();
-	string save_paths1 = "C:/Users/HMMS/Documents/GitHub/Thesis/KUKA LWR/MHP/loads/selected_loads.csv";
+	string save_paths1 = "C:/Users/HMMS/Documents/GitHub/Thesis/KUKA-LWR/MHP/loads/selected_loads.csv";
 	ofstream savefile1(save_paths1);																//loops through each load file name to separate the loads
 	for (int row = 0; row < size1; row++)																//used to loop through all the vectors 
 	{
@@ -1127,7 +1127,7 @@ void MHPRunPath(IHexapodPtr& mhp, Nano25E& lc, int robot)
 		//===== Set Velocity =====//
 		MHPVelocity(mhp, lc);
 		//this is still putting everything in the older folder rather than the folder with git, should probably be chaned
-		string full_path = "C:/Users/HMMS/Documents/GitHub/Thesis/KUKA LWR/MHP/paths/New_Robot_Grid/" + filestring + ".csv";	//full path name of where the path file should be
+		string full_path = "C:/Users/HMMS/Documents/GitHub/Thesis/KUKA-LWR/MHP/paths/New_Robot_Grid/" + filestring + ".csv";	//full path name of where the path file should be
 
 		list<vector<double>> position;																			//declares a list of vectors to store all the position data
 		vector<double> posvec_flip;																				//declares a vector that can store the value of a single position move
@@ -1287,7 +1287,7 @@ void MHPRunPath(IHexapodPtr& mhp, Nano25E& lc, int robot)
 				for (int k = 0; k < loops; k++)																			//creates seperate file names for each loop of loads
 				{
 					number = to_string(k);
-					save_paths.push_back("C:/Users/HMMS/Documents/GitHub/Thesis/KUKA LWR/MHP/loads/New_Robot_Grid/" + savestring + "_" + number + ".csv"); //creates separate file names for each loop of loads
+					save_paths.push_back("C:/Users/HMMS/Documents/GitHub/Thesis/KUKA-LWR/MHP/loads/New_Robot_Grid/" + savestring + "_" + number + ".csv"); //creates separate file names for each loop of loads
 				}
 				for (int section = 0; section < loops; section++)
 				{
@@ -1309,7 +1309,7 @@ void MHPRunPath(IHexapodPtr& mhp, Nano25E& lc, int robot)
 				MHPNerdStats(complete_loads, length, loops, savestring);												//function to save nerd stats ie. mean and st dev
 			}
 			//==== Save Intermediate Loads ====//
-			string save_paths1 = "C:/Users/HMMS/Documents/GitHub/Thesis/KUKA LWR/MHP/loads/New_Robot_Grid/" + savestring + "_intermediate.csv";
+			string save_paths1 = "C:/Users/HMMS/Documents/GitHub/Thesis/KUKA-LWR/MHP/loads/New_Robot_Grid/" + savestring + "_intermediate.csv";
 			ofstream savefile1(save_paths1);																			//loops through each load file name to separate the loads
 			string header1 = "X,Y,Z,Rx,Ry,Rz\n";
 			savefile1 << header1;
@@ -1412,7 +1412,7 @@ void MHPNavByBendingForces(IHexapodPtr& mhp, Nano25E& lc, int robot)
 		mhp->PutVelocity(0.25);
 		//MHPVelocity(mhp, lc);
 
-		string load_file = "C:/Users/HMMS/Documents/GitHub/Thesis/KUKA LWR/MHP/loads/Nose_Load_Nav/" + load_name + ".csv";
+		string load_file = "C:/Users/HMMS/Documents/GitHub/Thesis/KUKA-LWR/MHP/loads/Nose_Load_Nav/" + load_name + ".csv";
 		vector<vector<double>> loads_dsr;																		//vector that stores desired loads
 		int load_loops = 20;																						//value that holds number of measurements are taken at each point
 		vector<double> load_vec;																				//used to tranfer loads from a saved file being read to the loads_dsr vector of vectors
@@ -1826,7 +1826,7 @@ void MHPNavByBendingForces(IHexapodPtr& mhp, Nano25E& lc, int robot)
 		int size = all_timestamps.size();
 
 		//==== Saves results file of all current poses ====//
-		string save_paths = "C:/Users/HMMS/Documents/GitHub/Thesis/KUKA LWR/MHP/results/Nose_Nav_Results/" + save_name +"_results.csv";
+		string save_paths = "C:/Users/HMMS/Documents/GitHub/Thesis/KUKA-LWR/MHP/results/Nose_Nav_Results/" + save_name +"_results.csv";
 		ofstream savefile(save_paths);																			//loops through each load file name to separate the loads
 		string header = "Time (ms),r00,r01,r02,X (mm),r10,r11,r12,Y (mm),r20,r21,r22,Z (mm),Row 0,Row 1,Row 2,Row 3,"
 						"Dsr X (mm),Dsr Y (mm),Dsr Z (mm),Msr X (N),Dsr X (N),Msr Y (N),Dsr Y (N),Msr Z (N),Dsr Z (N),"
@@ -1853,7 +1853,7 @@ void MHPNavByBendingForces(IHexapodPtr& mhp, Nano25E& lc, int robot)
 		};
 
 		//==== Save Limits and load differences ====//
-		string save_paths1 = "C:/Users/HMMS/Documents/GitHub/Thesis/KUKA LWR/MHP/results/Nose_Nav_Results/" + save_name + "_results2.csv";
+		string save_paths1 = "C:/Users/HMMS/Documents/GitHub/Thesis/KUKA-LWR/MHP/results/Nose_Nav_Results/" + save_name + "_results2.csv";
 		ofstream savefile1(save_paths1);																				//loops through each load file name to separate the loads
 		string header1 = "Delta X,Delta Y,Delta Z,Delta Rx,Delta Ry,Delta Rz,ConDel X,ConDel Y,ConDel Z,ConDel Rx,ConDel Ry,ConDel Rz,"
 						"Lower X,Upper X,Lower Y,Upper Y,Lower Z,Upper Z,Lower Rx,Upper Rx,Lower Ry,Upper Ry,Lower Rz,Upper Rz\n";
@@ -2246,7 +2246,7 @@ void MHPPIDLoadCell(IHexapodPtr& mhp, Nano25E& lc, int robot)
 	//mhp->DeleteLimit(L"Calibration");
 
 	int size1 = loads1.size();
-	string save_paths1 = "C:/Users/HMMS/Documents/GitHub/Thesis/KUKA LWR/MHP/digitize/" + file_name + "_coordinates.csv";
+	string save_paths1 = "C:/Users/HMMS/Documents/GitHub/Thesis/KUKA-LWR/MHP/digitize/" + file_name + "_coordinates.csv";
 	ofstream savefile1(save_paths1);																//loops through each load file name to separate the loads
 	for (int row = 0; row < size1; row++)																//used to loop through all the vectors 
 	{
@@ -2260,7 +2260,7 @@ void MHPPIDLoadCell(IHexapodPtr& mhp, Nano25E& lc, int robot)
 		}
 		savefile1 << "\n";																				//writes a new line in the file onces a vector is completed
 	};
-	string save_loads = "C:/Users/HMMS/Documents/GitHub/Thesis/KUKA LWR/MHP/digitize/" + file_name + "_loads.csv";
+	string save_loads = "C:/Users/HMMS/Documents/GitHub/Thesis/KUKA-LWR/MHP/digitize/" + file_name + "_loads.csv";
 	ofstream savefile2(save_loads);																//loops through each load file name to separate the loads
 	for (int row = 0; row < size1; row++)																//used to loop through all the vectors 
 	{
@@ -2526,7 +2526,7 @@ void MHPcnc(IHexapodPtr& mhp, Nano25E& lc, int robot)
 		int load_loops = 20;																					//value that holds number of measurements are taken at each point
 		cout << "\nWhat path would you like to follow?\n";
 		cin >> filestring;
-		string full_path = "C:/Users/HMMS/Documents/GitHub/Thesis/KUKA LWR/MHP/paths/NoseRibPaths/" + filestring + ".csv";	//full path name of where the path file should be
+		string full_path = "C:/Users/HMMS/Documents/GitHub/Thesis/KUKA-LWR/MHP/paths/NoseRibPaths/" + filestring + ".csv";	//full path name of where the path file should be
 		cout << "\nWhat file name would you like to save to?\n";												//Save file name
 		cin >> save_name;																						//Save file name input
 		list<vector<double>> position;																			//declares a list of vectors to store all the position data
@@ -2671,7 +2671,7 @@ void MHPcnc(IHexapodPtr& mhp, Nano25E& lc, int robot)
 	int size = all_timestamps.size();
 
 	//==== Saves results file of all current poses ====//
-	string save_paths = "C:/Users/HMMS/Documents/GitHub/Thesis/KUKA LWR/MHP/results/NoseRibResults/" + save_name + "_results.csv";
+	string save_paths = "C:/Users/HMMS/Documents/GitHub/Thesis/KUKA-LWR/MHP/results/NoseRibResults/" + save_name + "_results.csv";
 	ofstream savefile(save_paths);																			//loops through each load file name to separate the loads
 	string header = "Time (ms),r00,r01,r02,X (mm),r10,r11,r12,Y (mm),r20,r21,r22,Z (mm),Row 0,Row 1,Row 2,Row 3,\n";
 	savefile << header;
@@ -2689,7 +2689,7 @@ void MHPcnc(IHexapodPtr& mhp, Nano25E& lc, int robot)
 	}
 
 	//==== Saves loads file of all current poses ====//
-	string save_loads = "C:/Users/HMMS/Documents/GitHub/Thesis/KUKA LWR/MHP/results/NoseRibLoads/" + save_name + "_loads.csv";
+	string save_loads = "C:/Users/HMMS/Documents/GitHub/Thesis/KUKA-LWR/MHP/results/NoseRibLoads/" + save_name + "_loads.csv";
 	ofstream savefile_loads(save_loads);																			//loops through each load file name to separate the loads
 	string header_loads = "Time (ms),X (N),Y (N),Z (Y),Rx (Nm),Ry (Nm),Rz (Nm),\n";
 	savefile_loads << header_loads;
@@ -2796,7 +2796,7 @@ void TestCode(IHexapodPtr& mhp, Nano25E& lc, int robot)
 	{
 		hold = 'n';
 	}
-	string load_file = "C:/Users/HMMS/Documents/GitHub/Thesis/KUKA LWR/MHP/loads/" + load_name + ".csv";
+	string load_file = "C:/Users/HMMS/Documents/GitHub/Thesis/KUKA-LWR/MHP/loads/" + load_name + ".csv";
 	vector<vector<double>> loads_dsr;																		//vector that stores desired loads
 	int load_loops = 1;																						//value that holds number of measurements are taken at each point
 	vector<double> load_vec;																				//used to tranfer loads from a saved file being read to the loads_dsr vector of vectors
@@ -3182,7 +3182,7 @@ LABEL:
 	int size = all_timestamps.size();
 
 	//==== Saves results file of all current poses ====//
-	string save_paths = "C:/Users/HMMS/Documents/GitHub/Thesis/KUKA LWR/MHP/results/" + save_name + "_results.csv";
+	string save_paths = "C:/Users/HMMS/Documents/GitHub/Thesis/KUKA-LWR/MHP/results/" + save_name + "_results.csv";
 	ofstream savefile(save_paths);																			//loops through each load file name to separate the loads
 	string header_int = " , ,Intial Positions\nX (mm),Y (mm),Z (mm),Rx (deg), Ry (deg), Rz (deg)\n";
 	string header = "Time (ms),r00,r01,r02,X (mm),r10,r11,r12,Y (mm),r20,r21,r22,Z (mm),Row 0,Row 1,Row 2,Row 3,"
@@ -3215,7 +3215,7 @@ LABEL:
 	};
 
 	//==== Save Limits and load differences ====//
-	string save_paths1 = "C:/Users/HMMS/Documents/GitHub/Thesis/KUKA LWR/MHP/results/" + save_name + "_results2.csv";
+	string save_paths1 = "C:/Users/HMMS/Documents/GitHub/Thesis/KUKA-LWR/MHP/results/" + save_name + "_results2.csv";
 	ofstream savefile1(save_paths1);																				//loops through each load file name to separate the loads
 	string header1 = "Delta X,Delta Y,Delta Z,Delta Rx,Delta Ry,Delta Rz,ConDel X,ConDel Y,ConDel Z,ConDel Rx,ConDel Ry,ConDel Rz,"
 		"Lower X,Upper X,Lower Y,Upper Y,Lower Z,Upper Z,Lower Rx,Upper Rx,Lower Ry,Upper Ry,Lower Rz,Upper Rz\n";
@@ -3523,7 +3523,7 @@ void MHPNerdStats(vector<vector<vector<double>>>& complete_loads, int& length, i
 	vector<double> means;
 	vector<vector<double>> all_means;
 	int run = 0;
-	string save_paths = "C:/Users/HMMS/Documents/GitHub/Thesis/KUKA LWR/MHP/loads/" + save_file + "_NerdStats.csv";
+	string save_paths = "C:/Users/HMMS/Documents/GitHub/Thesis/KUKA-LWR/MHP/loads/" + save_file + "_NerdStats.csv";
 	//====== Mean Calculation ======//
 	for (int row = 0; row < length; row++)
 	{
@@ -3904,7 +3904,7 @@ vector<double> MHPDigitize(IHexapodPtr& mhp, Nano25E& lc)
 		}
 	}
 	int size1 = loads1.size();
-	string save_paths1 = "C:/Users/HMMS/Documents/GitHub/Thesis/KUKA LWR/MHP/digitize/" + file_name + "_coordinates.csv";
+	string save_paths1 = "C:/Users/HMMS/Documents/GitHub/Thesis/KUKA-LWR/MHP/digitize/" + file_name + "_coordinates.csv";
 	ofstream savefile1(save_paths1);																//loops through each load file name to separate the loads
 	for (int row = 0; row < size1; row++)																//used to loop through all the vectors 
 	{
@@ -3918,7 +3918,7 @@ vector<double> MHPDigitize(IHexapodPtr& mhp, Nano25E& lc)
 		}
 		savefile1 << "\n";																				//writes a new line in the file onces a vector is completed
 	};
-	string save_loads = "C:/Users/HMMS/Documents/GitHub/Thesis/KUKA LWR/MHP/digitize/" + file_name + "_loads.csv";
+	string save_loads = "C:/Users/HMMS/Documents/GitHub/Thesis/KUKA-LWR/MHP/digitize/" + file_name + "_loads.csv";
 	ofstream savefile2(save_loads);																//loops through each load file name to separate the loads
 	for (int row = 0; row < size1; row++)																//used to loop through all the vectors 
 	{
